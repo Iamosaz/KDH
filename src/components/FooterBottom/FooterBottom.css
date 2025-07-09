@@ -1,0 +1,29 @@
+.footer-bottom {
+  background-color: #4168a3;
+  padding: 20px 0;
+  color: #fff;
+  font-size: 16px;
+}
+.footer-bottom-container {
+   max-width: 1200px;
+   margin: 0 auto;
+   padding: 0 40px;
+}
+.nav-container  {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-wrap: wrap;
+}
+/* .nav-links {
+  display: flex;
+  list-style: none;
+} */
+
+
+/* @media (max-width: 768px) {
+  .nav-container {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  } */

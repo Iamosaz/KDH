@@ -1,0 +1,33 @@
+.topbar {
+  background-color: #4168a3;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.topbar-left,
+.topbar-right {
+     display: flex;
+     align-items: center;
+     padding: 10px 200px;
+     flex-wrap: wrap;
+}
+.topbar-link {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    transition: color 0.3s ease;
+}
+
+.topbar-link:hover {
+  color: #2f2e2c;
+}
+
+.icon1 {
+  font-size: 22px;
+}

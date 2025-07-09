@@ -1,0 +1,64 @@
+.join-mission-section {
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* the scroll effect layout */
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+/* Dark overlay on top of the image for readability */
+.join-mission-overlay {
+ background-color: rgba(0, 0, 0, 0.6);
+ width: 100%;
+ height: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ padding: 40px;
+}
+
+.join-mission-content {
+  text-align: center;
+  max-width:900px;
+  z-index: 2;
+}
+.join-mission-content h2 {
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+.join-mission-content p {
+  font-size: 28px;
+  margin-bottom: 40px;
+}
+.buttons {
+   display: flex;
+   gap: 30px;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
+
+.donate-btn,
+.volunteer-btn {
+  padding: 22px 34px;
+  border-radius: 6px;
+  font-size: 22px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+/*already have a donate btn with the same styling*/
+/* .donate-btn:hover {
+  background-color: #d78d0c;
+} */
+
+.volunteer-btn {
+  border: 3px solid #c5cac8;
+  color: #fff;
+  background: transparent;
+}
+

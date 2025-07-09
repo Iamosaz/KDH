@@ -1,0 +1,63 @@
+.mission-section {
+  background-color: #fff;
+  padding: 80px 40px;
+  text-align: center;
+
+    /* background-image: url('../Assets//map.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: overlay;
+  opacity: 1; */
+}
+.mission-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.mission-header h2 {
+  font-size: 50px;
+  color: #030403;
+  margin-bottom: 24px;
+}
+.underline {
+  width: 80px;
+  height: 4px;
+  background-color:#f39c12;
+  margin: 10px auto 20px auto;
+  margin-bottom: 50px;
+}
+
+.mission-header p {
+   font-size: 22px;
+   color: #0f0f0f;
+   max-width: 850px;
+   margin: 0 auto 60px auto;
+   line-height: 1.8;
+}
+.impact-stats {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.stat-box {
+   background: #97ceb9;
+   padding: 65px 30px;
+   border-radius: 12px;
+   box-shadow: 0 4px 8px;
+   width: 200px;
+}
+.stat-box h3 {
+  font-size: 40px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #f39c12;
+}
+
+.stat-box p {
+  font-size: 18px;
+  color: #0c0b0b;
+  font-weight: 500;
+}
