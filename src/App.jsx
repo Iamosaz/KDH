@@ -3,16 +3,16 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import Home from './Pages/Home';
 import About from './Pages/About';
-import Topbar from "./Components/Topbar/Topbar";
 import FooterCTA from './components/FooterCTA/FooterCTA';
 import FooterBottom from './components/FooterBottom/FooterBottom';
+import Topbar from './Components/Topbar/Topbar';
 
 const App = () => {
   return (
     <Router>
       {/* Group Topbar and Navbar */}
       <header>
-        <Topbar />
+      <Topbar />
         {/* <Navbar /> */}
 
       </header>
