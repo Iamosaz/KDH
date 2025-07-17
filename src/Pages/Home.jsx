@@ -6,9 +6,12 @@ import HeroSlider from '../Components/HeroSlider/HeroSlider';
 
 
 
+
+
 const Home = () => {
   return (
     <div className="home">
+      {/* <Hero_Slider/> */}
      <HeroSlider />
      <MissionSection />
      <JoinMission />
