@@ -13,8 +13,8 @@ const Home = () => {
      <MissionSection />
      <JoinMission />
      <JoinMovement />
-     <FooterCTA />
-     <FooterBottom />
+     {/* <FooterCTA /> */}
+     {/* <FooterBottom /> */}
     </div>
   );
 };

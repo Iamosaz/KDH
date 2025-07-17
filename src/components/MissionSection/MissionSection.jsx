@@ -14,18 +14,18 @@ const MissionSection = () => {
 
          <div className='impact-stats'>
            <div className='stat-box'>
-             <h3>12+</h3>
+             <h3>5+</h3>
              <p>Years of impact</p>
            </div>
 
            <div className='stat-box'>
-              <h3>5000+</h3>
+              <h3>1000+</h3>
               <p>Lives Touched</p>
            </div>
 
            <div className='stat-box'>
-              <h3>6</h3>
-              <p>Countries</p>
+              <h3>50+</h3>
+              <p>Volunteers</p>
            </div>
 
          </div>

@@ -7,5 +7,8 @@
   padding: 0;
   font-family: "Inter", sans-serif;
   scroll-behavior: smooth;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
+}
+.about-page-body .nav-container {
+  padding-top: 70px; /* Adjust the value as needed  to adjust my navbar margin*/
 }

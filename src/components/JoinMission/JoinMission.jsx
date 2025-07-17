@@ -9,7 +9,7 @@ const JoinMission = () => {
     >
       <div className="join-mission-overlay">
         <div className="join-mission-content">
-          <h2>Join Our Mission to Help At-Risk Youth</h2>
+          <h2>Join Our Mission to Help At-Risk child</h2>
           <p>
             Be part of a purpose-driven movement dedicated to uplifting vulnerable communities. 
             Your time, energy, or donation can be the spark of transformation.

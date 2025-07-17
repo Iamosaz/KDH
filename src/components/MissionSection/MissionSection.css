@@ -29,24 +29,24 @@
 }
 
 .mission-header p {
-   font-size: 22px;
+   font-size: 24px;
    color: #0f0f0f;
-   max-width: 850px;
-   margin: 0 auto 60px auto;
+   max-width: 680px;
+   margin: 0 auto 80px auto;
    line-height: 1.8;
 }
 .impact-stats {
   display: flex;
   justify-content: center;
-  gap: 40px;
+  gap: 80px;
   flex-wrap: wrap;
 }
 
 .stat-box {
-   background: #97ceb9;
-   padding: 65px 30px;
-   border-radius: 12px;
-   box-shadow: 0 4px 8px;
+   /* background: #97ceb9; */
+   padding: 65px 20px;
+   border-radius: 10px;
+   box-shadow: 0 2px 18px;
    width: 200px;
 }
 .stat-box h3 {
@@ -57,7 +57,7 @@
 }
 
 .stat-box p {
-  font-size: 18px;
+  font-size: 22px;
   color: #0c0b0b;
   font-weight: 500;
 }
