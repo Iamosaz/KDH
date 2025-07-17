@@ -3,9 +3,9 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import Home from './Pages/Home';
 import About from './Pages/About';
-import FooterBottom from './components/FooterBottom/FooterBottom';
-import FooterCTA from './Components/FooterCTA/FooterCTA';
 import Topbar from "./Components/Topbar/Topbar";
+import FooterCTA from './components/FooterCTA/FooterCTA';
+import FooterBottom from './components/FooterBottom/FooterBottom';
 
 const App = () => {
   return (
@@ -26,6 +26,7 @@ const App = () => {
       </main>
       <FooterCTA />
       <FooterBottom />
+      
     </Router>
   );
 };
