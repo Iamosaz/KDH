@@ -1,6 +1,6 @@
 
 import React, { useState , useEffect } from 'react'
-import './HeroSlider.css';
+import './HomeSlider.css';
 import Navbar from '../Navbar/Navbar';
 import slider1 from '../Assets/slider1.jpg';
 import slider2 from '../Assets/slider2.jpg';
@@ -29,7 +29,7 @@ const slides = [
 ];
 
 
-const HeroSlider = () => {
+const HomeSlider = () => {
   // start with the first slide image (index 0) //
    const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -45,14 +45,14 @@ const HeroSlider = () => {
 
   return (
     <section
-      className="hero-slider"
+      className="home-slider"
       style={{ backgroundImage: `url(${slides[currentIndex].image})` }}
     >
       {/* Make the navbar live inside the hero area  */}
       <Navbar /> 
 
-      <div className="hero-overlay">
-        <div className="hero-content">
+      <div className="home-overlay">
+        <div className="home-content">
           <h1>{slides[currentIndex].title}</h1>
           <p>{slides[currentIndex].description}</p>
           {/* <a href="/donate" className="hero-btn">Donate Now</a> */}
@@ -62,4 +62,4 @@ const HeroSlider = () => {
   );
 };
 
-export default HeroSlider;
+export default HomeSlider;

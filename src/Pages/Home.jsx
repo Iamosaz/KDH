@@ -2,7 +2,8 @@ import React from 'react';
 import MissionSection from '../components/MissionSection/MissionSection';
 import JoinMovement from '../components/JoinMovement/JoinMovement';
 import JoinMission from '../components/JoinMission/JoinMission';
-import HeroSlider from '../Components/hero-Slider/HeroSlider';
+import HomeSlider from '../Components/HomeSlider/HomeSlider';
+
 
 
 
@@ -12,7 +13,7 @@ import HeroSlider from '../Components/hero-Slider/HeroSlider';
 const Home = () => {
   return (
     <div className="home">
-      <HeroSlider />
+     <HomeSlider />
      <MissionSection />
      <JoinMission />
      <JoinMovement />
