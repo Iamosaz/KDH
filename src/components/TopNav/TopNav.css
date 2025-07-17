@@ -1,4 +1,4 @@
-.topbar {
+.topnav {
   background-color: #4168a3;
   color: #fff;
   display: flex;
@@ -7,14 +7,14 @@
   flex-wrap: wrap;
 }
 
-.topbar-left,
-.topbar-right {
+.topnav-left,
+.topnav-right {
      display: flex;
      align-items: center;
      padding: 10px 200px;
      flex-wrap: wrap;
 }
-.topbar-link {
+.topnav-link {
     color: #fff;
     text-decoration: none;
     margin-left: 15px;
@@ -24,7 +24,7 @@
     transition: color 0.3s ease;
 }
 
-.topbar-link:hover {
+.topnav-link:hover {
   color: #2f2e2c;
 }
 
