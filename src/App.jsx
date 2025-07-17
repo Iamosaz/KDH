@@ -5,14 +5,17 @@ import Home from './Pages/Home';
 import About from './Pages/About';
 import FooterCTA from './components/FooterCTA/FooterCTA';
 import FooterBottom from './components/FooterBottom/FooterBottom';
-import TopNav from './Components/TopNav/TopNav';
+import TopNavbar from './Components/TopNav/TopNav';
+// import TopNav from './Components/TopNav/TopNav';
 
 const App = () => {
   return (
     <Router>
       {/* Group Topbar and Navbar */}
       <header>
-      <TopNav />
+        <TopNavbar/>
+
+      {/* <TopNav /> */}
         {/* <Navbar /> */}
 
       </header>

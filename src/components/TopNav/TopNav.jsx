@@ -4,7 +4,7 @@ import { FaFacebookF, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md'
 
 
-const TopNav = () => {
+const TopNavbar = () => {
   return (
     <div className="topnav">
       <div className="topnav-left">
@@ -29,4 +29,4 @@ const TopNav = () => {
   );
 };
 
-export default TopNav
+export default TopNavbar
