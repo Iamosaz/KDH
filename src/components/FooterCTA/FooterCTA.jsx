@@ -46,7 +46,7 @@ const FooterCTA = () => {
               className="footer-link"
             >
               <MdLocationOn className="icon" />
-              Mailing Address: P.O. Box 123, Nigeria
+            10510 Creditview Rd, Brampton, ON L7A 0W6 canada
             </a>
           </p>
         </div>

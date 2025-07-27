@@ -1,6 +1,8 @@
 import React from 'react';
 import './JoinMission.css';
 import bgImage from '../Assets/handle.jpg'; 
+import { Link } from 'react-router-dom';
+
 const JoinMission = () => {
   return (
     <section
@@ -9,14 +11,14 @@ const JoinMission = () => {
     >
       <div className="join-mission-overlay">
         <div className="join-mission-content">
-          <h2>Join Our Mission to Help At-Risk child</h2>
+          <h2>Join Our Mission to Help At-Risk Child</h2>
           <p>
             Be part of a purpose-driven movement dedicated to uplifting vulnerable communities. 
             Your time, energy, or donation can be the spark of transformation.
           </p>
           <div className="buttons">
-            <a href="/donate" className="donate-btn">Donate Now</a>
-            <a href="/volunteer" className="volunteer-btn">Become a Volunteer</a>
+            <Link to="/donate" className="donate-btn2">Donate Now</Link>
+            <Link to="/volunteer" className="volunteer-btn">Become a Volunteer</Link>
           </div>
         </div>
       </div>

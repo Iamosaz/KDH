@@ -1,0 +1,48 @@
+.program-hero {
+  height: 36vh;
+  background: rgba(11, 208, 208, 0.7);
+  align-items: center;
+}
+
+.program-hero-overlay {
+  background: rgba(47, 66, 66, 0.8);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.program-hero-content {
+   text-align: center;
+   color: #fff;
+   font-weight: 700;
+}
+
+.program-hero-overlay h1 {
+  color: #fff;
+  margin-top: 130px;
+  font-size: 22px;
+  font-weight: 600;
+  /* text-transform: uppercase; */
+  letter-spacing: 1px;
+}
+
+.program-hero-content .underline2 {
+  width: 50px;
+  height: 4px;
+  background: #f39c12;
+  margin: 8px auto;
+}
+.breadcrumb {
+  margin: 20px;
+  font-size: 18px;
+}
+
+.breadcrumb a {
+  color: #f39c12;
+  text-decoration: none;
+  font-weight: 700;
+}
+.breadcrumbs-arrow {
+  color: #f39c12;
+}

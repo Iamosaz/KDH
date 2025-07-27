@@ -14,7 +14,7 @@ const MissionSection = () => {
 
          <div className='impact-stats'>
            <div className='stat-box'>
-             <h3>5+</h3>
+             <h3>2+</h3>
              <p>Years of impact</p>
            </div>
 

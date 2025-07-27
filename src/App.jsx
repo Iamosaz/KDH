@@ -3,10 +3,11 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import Home from './Pages/Home';
 import About from './Pages/About';
-import FooterCTA from './components/FooterCTA/FooterCTA';
-import FooterBottom from './components/FooterBottom/FooterBottom';
 import TopNavbar from './Components/TopNav/TopNav';
-// import TopNav from './Components/TopNav/TopNav';
+import Programs from './Pages/Programs';
+import Media from './Pages/Media';
+import DomesticProgram from './Pages/DomesticProgram';
+import PastProgram from './Pages/PastProgram';
 
 const App = () => {
   return (
@@ -25,10 +26,18 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
            <Route path="about" element={<About pageType="about"/>} />
+            <Route path="programs" element={<Programs pageType="programs"/>} />
+            <Route path="media" element={<Media pageType="media"/>} />
+
+
+         
+          {/* Detail Routes for each Program */}   
+            <Route path="/programs/domestic" element={<DomesticProgram />} />
+            <Route path="/programs/past" element={<PastProgram />} />
         </Routes>
       </main>
-      <FooterCTA />
-      <FooterBottom />
+      {/* <FooterCTA /> */}
+      {/* <FooterBottom /> */}
       
     </Router>
   );

@@ -1,17 +1,20 @@
 import React from 'react'
 import './Navbar.css'
-import { NavLink } from 'react-router-dom';
+import { NavLink, useLocation } from 'react-router-dom';
 import logo from '../Assets/KDHlogo.png';
 
 const Navbar = () => {
+  const location = useLocation();
+  const isAboutPage = location.pathname === '/about';
+
   return (
     <div>
-      <nav className="navbar">
-        <div className="nav-container">
+      <nav className={`navbar ${isAboutPage ? 'navbar-about' : ''}`}>
+        <div className="nav-container5">
           <div className="nav-logo">
             <img src={logo} alt="logo" />
           </div>
-
+          
           <ul className="nav-links">
             <li>
               <NavLink
@@ -21,7 +24,7 @@ const Navbar = () => {
                 }
                 onClick={() => {
                   if (window.location.pathname === "/") {
-                    window.location.reload(); // Force reload
+                    window.location.reload();
                   }
                 }}
               >
@@ -44,7 +47,7 @@ const Navbar = () => {
               </NavLink>
             </li>
           </ul>
-
+          
           <NavLink to="/donate" className="donate-btn">
             Donate Now
           </NavLink>

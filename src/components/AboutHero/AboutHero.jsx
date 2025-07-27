@@ -8,7 +8,7 @@ const AboutHero = () => {
       <div className="about-hero-overlay">
         <div className="about-hero-content">
           <h1>About Us</h1>
-          <div className="underline"></div>
+          <div className="underline2"></div>
 
           <div className="breadcrumb">
             <Link to="/">Home</Link> <span className='breadcrumbs-arrow'> &gt;&gt;</span>About

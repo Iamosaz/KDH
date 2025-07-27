@@ -1,5 +1,5 @@
 .about-hero {
-  height: 25vh;
+  height: 36vh;
   background: rgba(11, 208, 208, 0.7);
   align-items: center;
 }
@@ -20,22 +20,22 @@
 
 .about-hero-overlay h1 {
   color: #fff;
-  margin-top: 140px;
-  font-size: 55px;
+  margin-top: 130px;
+  font-size: 22px;
   font-weight: 600;
   /* text-transform: uppercase; */
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 
-.about-hero-content .underline {
-  width: 60px;
+.about-hero-content .underline2 {
+  width: 50px;
   height: 4px;
   background: #f39c12;
-  margin: 16px auto;
+  margin: 8px auto;
 }
 .breadcrumb {
   margin: 20px;
-  font-size: 22px;
+  font-size: 18px;
 }
 
 .breadcrumb a {

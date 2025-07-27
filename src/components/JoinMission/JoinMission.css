@@ -1,7 +1,7 @@
 .join-mission-section {
   background-size: cover;
   background-position: center;
-  background-attachment: fixed; /* the scroll effect layout */
+  background-attachment: fixed;
   height: 100vh;
   position: relative;
   display: flex;
@@ -9,56 +9,73 @@
   justify-content: center;
   color: #fff;
 }
-/* Dark overlay on top of the image for readability */
+
 .join-mission-overlay {
- background-color: rgba(0, 0, 0, 0.6);
- width: 100%;
- height: 100%;
- display: flex;
- align-items: center;
- justify-content: center;
- padding: 40px;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
 }
 
 .join-mission-content {
   text-align: center;
-  max-width:900px;
+  max-width: 700px;
   z-index: 2;
 }
+
 .join-mission-content h2 {
-  font-size: 50px;
+  font-size: 40px;
   margin-bottom: 30px;
 }
+
 .join-mission-content p {
-  font-size: 28px;
+  font-size: 18px;
+  letter-spacing: 2px;
   margin-bottom: 40px;
 }
+
 .buttons {
-   display: flex;
-   gap: 30px;
-   justify-content: center;
-   flex-wrap: wrap;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
-
-.donate-btn,
+/* Styled CTA Buttons */
+.donate-btn2,
 .volunteer-btn {
-  padding: 22px 34px;
+  padding: 14px 22px;
   border-radius: 6px;
-  font-size: 22px;
+  font-size: 18px;
   font-weight: bold;
   text-decoration: none;
   transition: all 0.3s ease;
+  display: inline-block;
 }
 
-/*already have a donate btn with the same styling*/
-/* .donate-btn:hover {
-  background-color: #d78d0c;
-} */
-
-.volunteer-btn {
-  border: 3px solid #c5cac8;
+/* Donate Button — distinct orange color */
+.donate-btn2 {
+  background-color: #f39c12;
   color: #fff;
-  background: transparent;
+  border: none;
 }
 
+.donate-btn2:hover {
+  background-color:  #c5cac8;;
+  color: #fff;
+}
+
+/* Volunteer Button — bordered and transparent */
+.volunteer-btn {
+  border: 2px solid #c5cac8;
+  background-color: transparent;
+  color: #fff;
+}
+
+.volunteer-btn:hover {
+  background-color: #c5cac8;
+  color: #000;
+}

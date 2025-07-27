@@ -24,12 +24,12 @@
 }
 .card-image {
   position: relative;
-  height: 500px;
+  height: 300px;
   background-size: cover;
   background-position: center;
 }
 .kdh{
-  font-size: 40px;
+  font-size: 36px;
 }
 .card-overlay-title {
   position: absolute;
@@ -37,34 +37,34 @@
   left: 22px;
   background: rgba(171, 4, 4, 0.85);
   color: #fff;
-  padding: 14px 24px;
+  padding: 12px 22px;
   border-radius: 8px;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 16px;
 }
 .card-details {
   padding: 28px;
 }
 
 .card-details h3 {
-  margin: 14px 0;
+  margin: 12px 0;
   color:#030403;
   font-weight: bold;
-  font-size: 28px;
+  font-size: 22px;
 }
 
 .card-details p {
-  font-size: 22px;
+  font-size: 15px;
   color: #555;
   margin-bottom: 22px;
 }
 
 .learn-btn {
   display: inline-block;
-  padding: 18px 24px;
+  padding: 17px 20px;
   background-color:  #f39c12;
   color: #fff;
-  font-size: 22px;
+  font-size: 17px;
   font-weight: 600;
   text-decoration: none;
   border-radius: 8px;

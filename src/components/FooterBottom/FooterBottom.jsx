@@ -1,13 +1,15 @@
 import React from 'react';
 import './FooterBottom.css';
-import { NavLink } from 'react-router-dom';
+import { NavLink, useLocation } from 'react-router-dom';
 
 const FooterBottom = () => {
-  return (
-    <div className='footer-bottom'>
-      <nav className='footer-bottom-container'>
-        <div className='nav-container'>
+  const location = useLocation();
+  const isAboutPage = location.pathname === '/about';
 
+  return (
+    <div className={`footer-bottom ${isAboutPage ? 'about-footer' : ''}`}>
+      <nav className='footer-bottom-container4'>
+        <div className='nav-container4'>
           <ul className='nav-links'>
             <li>
               <NavLink to="/" className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}>
@@ -28,7 +30,6 @@ const FooterBottom = () => {
           <p className="footer-copy-text">
             Kids Dream Haven © 2025 All Rights Reserved.
           </p>
-
         </div>
       </nav>
     </div>

@@ -3,6 +3,8 @@ import MissionSection from '../components/MissionSection/MissionSection';
 import JoinMovement from '../components/JoinMovement/JoinMovement';
 import JoinMission from '../components/JoinMission/JoinMission';
 import HomeSlider from '../Components/HomeSlider/HomeSlider';
+import FooterBottom from '../components/FooterBottom/FooterBottom';
+import FooterCTA from '../components/FooterCTA/FooterCTA';
 
 
 
@@ -17,8 +19,8 @@ const Home = () => {
      <MissionSection />
      <JoinMission />
      <JoinMovement />
-     {/* <FooterCTA /> */}
-     {/* <FooterBottom /> */}
+     <FooterCTA />
+     <FooterBottom />
     </div>
   );
 };

@@ -1,0 +1,118 @@
+/* .program-page {
+  background-color: #f5f5f5;
+  margin-top: 40px;
+} */
+
+.program-container {
+  max-width: 1300px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.program-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 40px;
+  margin-bottom: 60px;
+}
+
+/* .program-card {
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+  text-align: left;
+} */
+
+.program-image {
+  height: 470px;
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.program-overlay-title {
+  position: absolute;
+  bottom: 0;
+  left: 22px;
+  background: rgba(171, 4, 4, 0.85);
+  color: #fff;
+  padding: 12px 22px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.program-details {
+  padding: 8px;
+  background: #fff;
+}
+
+.program-details h3 {
+  margin: 12px;
+  color: #030403;
+  /* margin-right: 50px; */
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.program-details p {
+  font-size: 14px;
+  text-align: left;
+  line-height: 1.4;
+  color: #0f0101;
+  margin-bottom: 24px;
+  background: #fff;
+}
+
+.program-btn {
+  display: inline-block;
+  padding: 15px 22px;
+  background-color: #f39c12;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.program-btn:hover {
+  background-color: #6f6c6c;
+}
+
+.support-section {
+  background-color: #fff;
+  padding: 50px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+}
+
+.support-section h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.support-section p {
+  font-size: 16px;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+.volunteer-btn1 {
+  display: inline-block;
+  padding: 15px 24px;
+  background-color: #ab0404;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 600;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.volunteer-btn1:hover {
+  background-color: #d6cbcb;
+  background: #030403;
+}
