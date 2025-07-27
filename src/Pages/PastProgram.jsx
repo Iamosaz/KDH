@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import Slider from 'react-slick';
-import './Style/PastProgram.css';s
+import './Style/PastProgram.css';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
