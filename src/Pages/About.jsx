@@ -1,10 +1,13 @@
 import React, { useEffect } from 'react';
 import Navbar from '../Components/Navbar/Navbar';
-import AboutHero from '../components/AboutHero/AboutHero';
-import WhoWeAreSection from '../components/WhoWeAreSection/WhoWeAreSection';
-import JoinMission from '../components/JoinMission/JoinMission';
-import FooterCTA from '../components/FooterCTA/FooterCTA';
-import FooterBottom from '../components/FooterBottom/FooterBottom';
+import AboutHero from '../Components/AboutHero/AboutHero';
+import WhoWeAreSection from '../Components/WhoWeAreSection/WhoWeAreSection';
+import JoinMission from '../Components/JoinMission/JoinMission';
+import FooterCTA from '../Components/FooterCTA/FooterCTA';
+import FooterBottom from '../Components/FooterBottom/FooterBottom';
+
+
+
 
 
 const About = () => {
