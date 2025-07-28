@@ -3,18 +3,18 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import Home from './Pages/Home';
 import About from './Pages/About';
-import TopNavbar from './Components/TopNav/TopNav';
 import Programs from './Pages/Programs';
 import Media from './Pages/Media';
 import DomesticProgram from './Pages/DomesticProgram';
 import PastProgram from './Pages/PastProgram';
+import TopHeader from './Components/TopHeader/TopHeader';
 
 const App = () => {
   return (
     <Router>
       {/* Group Topbar and Navbar */}
       <header>
-        <TopNavbar/>
+        <TopHeader />
 
       {/* <TopNav /> */}
         {/* <Navbar /> */}
