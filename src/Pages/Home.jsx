@@ -1,10 +1,9 @@
 import React from 'react';
-import MissionSection from '../components/MissionSection/MissionSection';
-import JoinMovement from '../components/JoinMovement/JoinMovement';
-import JoinMission from '../components/JoinMission/JoinMission';
+import MissionSection from '../Components/MissionSection/MissionSection';
 import HomeSlider from '../Components/HomeSlider/HomeSlider';
-import FooterBottom from '../components/FooterBottom/FooterBottom';
-import FooterCTA from '../components/FooterCTA/FooterCTA';
+import FooterBottom from '../Components/FooterBottom/FooterBottom';
+import FooterCTA from '../Components/FooterCTA/FooterCTA';
+import JoinMission from '../Components/JoinMission/JoinMission'
 
 
 
@@ -18,7 +17,6 @@ const Home = () => {
      <HomeSlider />
      <MissionSection />
      <JoinMission />
-     <JoinMovement />
      <FooterCTA />
      <FooterBottom />
     </div>
