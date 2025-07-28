@@ -3,7 +3,7 @@ import React from 'react';
 import './ProgramSection.css';
 import program1 from '../Assets/Program8.jpeg';
 import program2 from '../Assets/FutureSt.jpeg';
-import pastProgram from '../Assets/Camp.jpeg';
+import pastProgram from '../Assets/camp.jpeg';
 
 const ProgramSection = () => {
   return (
