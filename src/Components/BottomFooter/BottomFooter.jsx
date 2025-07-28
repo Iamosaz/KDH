@@ -8,8 +8,8 @@ const BottomFooter = () => {
   const isAboutPage = location.pathname === '/about';
 
   return (
-     <div className={`footer-bottom ${isAboutPage ? 'about-footer' : ''}`}>
-      <nav className='footer-bottom-container4'>
+     <div className={`bottom-footer ${isAboutPage ? 'about-footer' : ''}`}>
+      <nav className='bottom-footer-container4'>
         <div className='nav-container4'>
           <ul className='nav-links'>
             <li>
