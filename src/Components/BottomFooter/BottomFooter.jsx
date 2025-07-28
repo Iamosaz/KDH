@@ -1,13 +1,14 @@
-import React from 'react';
-import './FooterBottom.css';
+import React from 'react'
+import './BottomFooter.css'
 import { NavLink, useLocation } from 'react-router-dom';
 
-const FooterBottom = () => {
+const BottomFooter = () => {
+
   const location = useLocation();
   const isAboutPage = location.pathname === '/about';
 
   return (
-    <div className={`footer-bottom ${isAboutPage ? 'about-footer' : ''}`}>
+     <div className={`footer-bottom ${isAboutPage ? 'about-footer' : ''}`}>
       <nav className='footer-bottom-container4'>
         <div className='nav-container4'>
           <ul className='nav-links'>
@@ -36,4 +37,4 @@ const FooterBottom = () => {
   );
 };
 
-export default FooterBottom;
+export default BottomFooter

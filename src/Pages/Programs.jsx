@@ -1,10 +1,10 @@
 import React, { useEffect } from 'react';
 import Navbar from '../Components/Navbar/Navbar';
 import ProgramHero from '../Components/ProgramHero/ProgramHero';
-import FooterCTA from '../components/FooterCTA/FooterCTA';
-import FooterBottom from '../components/FooterBottom/FooterBottom';
 import ProgramSection from '../Components/ProgramSection/ProgramSection';
 import TheMovement from '../Components/TheMovement/TheMovement';
+import FooterCA from '../Components/FooterCA/FooterCA';
+import BottomFooter from '../Components/BottomFooter/BottomFooter';
 
 
 const Programs = () => {
@@ -21,8 +21,8 @@ const Programs = () => {
       <ProgramHero />
       <TheMovement />
       <ProgramSection />
-      <FooterCTA />
-      <FooterBottom />
+      <FooterCA />
+      <BottomFooter />
     </div>
   );
 };
