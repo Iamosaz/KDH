@@ -9,6 +9,7 @@ import DomesticProgram from './Pages/DomesticProgram';
 import PastProgram from './Pages/PastProgram';
 import TopHeader from './Components/TopHeader/TopHeader';
 
+
 const App = () => {
   return (
     <Router>
@@ -35,9 +36,7 @@ const App = () => {
             <Route path="/programs/past" element={<PastProgram />} />
         </Routes>
       </main>
-      {/* <FooterCTA /> */}
-      {/* <FooterBottom /> */}
-      
+      {/* <BottomFooter /> */}
     </Router>
   );
 };

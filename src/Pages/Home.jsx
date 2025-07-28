@@ -1,9 +1,9 @@
 import React from 'react';
 import HomeSlider from '../Components/HomeSlider/HomeSlider';
-import FooterBottom from '../Components/FooterBottom/FooterBottom';
-import FooterCTA from '../Components/FooterCTA/FooterCTA';
 import JoinMission from '../Components/JoinMission/JoinMission'
 import MissionInfo from '../Components/MissionInfo/MissionInfo'
+import BottomFooter from '../Components/BottomFooter/BottomFooter';
+import FooterCA from '../Components/FooterCA/FooterCA';
 
 
 
@@ -17,8 +17,8 @@ const Home = () => {
      <HomeSlider />
      <MissionInfo />
      <JoinMission />
-     <FooterCTA />
-     <FooterBottom />
+     <FooterCA />
+     <BottomFooter />
     </div>
   );
 };

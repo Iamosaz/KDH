@@ -5,12 +5,11 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 import Navbar from '../Components/Navbar/Navbar';
-import FooterBottom from '../components/FooterBottom/FooterBottom';
-import FooterCTA from '../components/FooterCTA/FooterCTA';
-
 import img1 from '../Components/Assets/Program8.jpeg';
 import img2 from '../Components/Assets/Program1.jpeg';
 import img3 from '../Components/Assets/Program7.jpeg';
+import FooterCA from '../Components/FooterCA/FooterCA';
+import BottomFooter from '../Components/BottomFooter/BottomFooter';
 
 const DomesticProgram = () => {
   useEffect(() => {
@@ -76,8 +75,8 @@ const DomesticProgram = () => {
         </section>
       </div>
 
-      <FooterCTA />
-      <FooterBottom />
+      <FooterCA />
+      <BottomFooter />
     </>
   );
 };

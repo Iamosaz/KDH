@@ -3,8 +3,8 @@ import Navbar from '../Components/Navbar/Navbar';
 import AboutHero from '../Components/AboutHero/AboutHero';
 import WhoWeAreSection from '../Components/WhoWeAreSection/WhoWeAreSection';
 import JoinMission from '../Components/JoinMission/JoinMission';
-import FooterCTA from '../Components/FooterCTA/FooterCTA';
-import FooterBottom from '../Components/FooterBottom/FooterBottom';
+import BottomFooter from '../Components/BottomFooter/BottomFooter';
+import FooterCA from '../Components/FooterCA/FooterCA';
 
 
 
@@ -24,8 +24,8 @@ const About = () => {
       <AboutHero />
       <WhoWeAreSection />
       <JoinMission />
-      <FooterCTA />
-      <FooterBottom />
+      <FooterCA />
+      <BottomFooter />
     </div>
   );
 };

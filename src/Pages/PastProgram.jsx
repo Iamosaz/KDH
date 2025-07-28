@@ -5,12 +5,11 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 import Navbar from '../Components/Navbar/Navbar';
-import FooterBottom from '../components/FooterBottom/FooterBottom';
-import FooterCTA from '../components/FooterCTA/FooterCTA';
-
 import img1 from '../Components/Assets/Camp.jpeg';
 import img2 from '../Components/Assets/camp1.jpeg';
 import img3 from '../Components/Assets/camp2.jpeg';
+import BottomFooter from '../Components/BottomFooter/BottomFooter';
+import FooterCA from '../Components/FooterCA/FooterCA';
 
 const PastProgram = () => {
   useEffect(() => {
@@ -59,8 +58,8 @@ const PastProgram = () => {
        
       </div>
 
-      <FooterCTA />
-      <FooterBottom />
+      <FooterCA />
+      <BottomFooter />
     </>
   );
 };
