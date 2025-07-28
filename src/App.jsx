@@ -16,7 +16,6 @@ const App = () => {
       <header>
         <TopHeader />
 
-      {/* <TopNav /> */}
         {/* <Navbar /> */}
 
       </header>
