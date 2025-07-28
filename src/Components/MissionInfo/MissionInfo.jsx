@@ -1,7 +1,7 @@
 import React from 'react'
-import './MissionSection.css'
+import './MissionInfo.css'
 
-const MissionSection = () => {
+const MissionInfo = () => {
   return (
     <section className='mission-section'>
        <div className='mission-container'>
@@ -34,4 +34,4 @@ const MissionSection = () => {
   );
 };
 
-export default MissionSection
+export default MissionInfo
