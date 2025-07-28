@@ -20,7 +20,7 @@ const TopHeader = () => {
         <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="topnav-link">
           <FaInstagram className="icon1" />
         </a>
-        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="topnav-link">
+        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="topheader-link">
           <FaLinkedinIn className="icon1" />
         </a>
       </div>
