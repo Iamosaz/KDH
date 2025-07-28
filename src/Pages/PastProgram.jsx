@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 import Navbar from '../Components/Navbar/Navbar';
-import img1 from '../Components/Assets/Camp.jpeg';
+import img1 from '../Components/Assets/camp.jpeg';
 import img2 from '../Components/Assets/camp1.jpeg';
 import img3 from '../Components/Assets/camp2.jpeg';
 import BottomFooter from '../Components/BottomFooter/BottomFooter';
