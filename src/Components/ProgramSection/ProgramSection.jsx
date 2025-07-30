@@ -37,8 +37,8 @@ const ProgramSection = () => {
             <div className="program-details">
               <h3>Future Strikers</h3>
               <p>Future Strikers – Summer Camp 2025 ⚽
-                Get ready for an unforgettable summer! Kids Dream Haven is thrilled to announce our upcoming "Future Strikers" Summer Camp—a dynamic and engaging program designed to empower kids through fun, fitness, and creativity. This camp is more than just a way to spend the holidays—it's an opportunity for children to build confidence, develop new skills, make lasting friendships, and be part of something truly inspiring. Packed with exciting activities such as sports, team games, creative arts, confidence-building workshops, and daily inspiration, Future Strikers is open to all children ages 6 and above. We believe every child is a future leader and champion—and this camp is where they start their journey. Don’t miss out on this life-shaping experience coming this summer—let's shape tomorrow’s stars today!</p>
-              <a href="/programs/international" className="program-btn">
+                Get ready for an unforgettable summer! Kids Dream Haven is thrilled to announce our upcoming "Future Strikers" Summer Camp a dynamic and engaging program designed to empower kids through fun, fitness, and creativity. This camp is more than just a way to spend the holidays—it's an opportunity for children to build confidence, develop new skills, make lasting friendships, and be part of something truly inspiring. Packed with exciting activities such as sports, team games, creative arts, confidence-building workshops, and daily inspiration, Future Strikers is open to all children ages 6 and above. We believe every child is a future leader and champion—and this camp is where they start their journey. Don’t miss out on this life-shaping experience coming this summer—let's shape tomorrow’s stars today!</p>
+              <a href="/programs/future" className="program-btn">
                 View Program
               </a>
             </div>

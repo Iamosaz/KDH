@@ -3,7 +3,6 @@ import Slider from 'react-slick';
 import './Style/PastProgram.css';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
 import Navbar from '../Components/Navbar/Navbar';
 import img1 from '../Components/Assets/camp.jpeg';
 import img2 from '../Components/Assets/camp1.jpeg';

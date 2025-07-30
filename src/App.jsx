@@ -8,6 +8,10 @@ import Media from './Pages/Media';
 import DomesticProgram from './Pages/DomesticProgram';
 import PastProgram from './Pages/PastProgram';
 import TopHeader from './Components/TopHeader/TopHeader';
+import FutureProgram from './Pages/FutureProgram';
+import HospitalSupport from './Pages/HospitalSupport';
+import FeedingKids from './Pages/FeedingKids';
+import SupportWidows from './Pages/SupportWidows';
 
 
 const App = () => {
@@ -34,6 +38,11 @@ const App = () => {
           {/* Detail Routes for each Program */}   
             <Route path="/programs/domestic" element={<DomesticProgram />} />
             <Route path="/programs/past" element={<PastProgram />} />
+            <Route path="/programs/future" element={<FutureProgram />} />
+            <Route path="/themovement/learn" element={<FutureProgram />} />
+            <Route path="/movement/hospital-support" element={<HospitalSupport />} />
+            <Route path="/movement/feeding-kids" element={<FeedingKids />} />
+            <Route path="/movement/Support-widows" element={<SupportWidows />} />
         </Routes>
       </main>
       {/* <BottomFooter /> */}

@@ -1,0 +1,34 @@
+.movement-detail-wrapper1 {
+  padding-top: 150px;
+  background:#d0c3c3;
+  max-width: 1400px;
+  margin: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.movement-hero1 {
+  width: 100%;
+  max-height: 700px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 40px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.movement-content1 h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #3788d9;
+  font-weight: 700;
+  text-align: center;
+}
+
+.movement-content1 p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #050404;
+  margin-bottom: 60px;
+  text-align: justify;
+}
+
