@@ -1,6 +1,8 @@
 import React, { useEffect } from 'react';
 import Navbar from '../Components/Navbar/Navbar';
 import MediaHero from '../Components/MediaHero/MediaHero';
+import FooterCA from '../Components/FooterCA/FooterCA';
+import BottomFooter from '../Components/BottomFooter/BottomFooter';
 
 
 
@@ -16,6 +18,8 @@ const Media = () => {
     <div className="media-page">
       <Navbar />
       <MediaHero />
+      <FooterCA />
+      <BottomFooter />
     </div>
   );
 };
