@@ -4,6 +4,7 @@ import './ProgramSection.css';
 import program1 from '../Assets/Program8.jpeg';
 import program2 from '../Assets/FutureSt.jpeg';
 import pastProgram from '../Assets/camp.jpeg';
+import { Link } from 'react-router-dom';
 
 const ProgramSection = () => {
   return (
@@ -65,9 +66,7 @@ const ProgramSection = () => {
         <div className="support-section">
           <h2>Support Our Cause</h2>
           <p>Become part of a passionate mission to impact lives at KDH.</p>
-          <a href="/volunteer" className="volunteer-btn1">
-            Become a Volunteer
-          </a>
+         <Link to="/volunteer" className="volunteer-btn1">Become a Volunteer</Link>
         </div>
       </div>
     </section>

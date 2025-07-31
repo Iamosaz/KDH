@@ -12,6 +12,8 @@ import FutureProgram from './Pages/FutureProgram';
 import HospitalSupport from './Pages/HospitalSupport';
 import FeedingKids from './Pages/FeedingKids';
 import SupportWidows from './Pages/SupportWidows';
+import BecomeAVolunteer from './Pages/BecomeAVolunteer';
+import DonateNow from './Pages/DonateNow';
 
 
 const App = () => {
@@ -43,6 +45,9 @@ const App = () => {
             <Route path="/movement/hospital-support" element={<HospitalSupport />} />
             <Route path="/movement/feeding-kids" element={<FeedingKids />} />
             <Route path="/movement/Support-widows" element={<SupportWidows />} />
+            <Route path="/volunteer" element={<BecomeAVolunteer />} />
+            <Route path="/donate" element={<DonateNow />} />
+
         </Routes>
       </main>
       {/* <BottomFooter /> */}
