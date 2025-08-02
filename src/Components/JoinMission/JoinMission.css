@@ -79,3 +79,76 @@
   background-color: #c5cac8;
   color: #000;
 }
+
+@media (max-width: 1024px) {
+  .join-mission-content h2 {
+    font-size: 34px;
+  }
+
+  .join-mission-content p {
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    margin-bottom: 30px;
+  }
+
+  .donate-btn2,
+  .volunteer-btn {
+    font-size: 16px;
+    padding: 12px 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .join-mission-section {
+    background-attachment: scroll;
+    height: auto;
+    padding: 60px 20px;
+  }
+
+  .join-mission-overlay {
+    padding: 30px;
+  }
+
+  .join-mission-content {
+    max-width: 90%;
+  }
+
+  .join-mission-content h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+
+  .join-mission-content p {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+
+  .buttons {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .join-mission-content h2 {
+    font-size: 24px;
+  }
+
+  .join-mission-content p {
+    font-size: 16px;
+    letter-spacing: 1px;
+  }
+
+  .donate-btn2,
+  .volunteer-btn {
+    font-size: 15px;
+    padding: 10px 16px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .buttons {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+

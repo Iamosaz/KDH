@@ -9,7 +9,7 @@ const MissionInfo = () => {
            <h2>Our Mission</h2>
            {/* underline effect */}
            <div className='underline'></div>
-           <p>At Kids Dream Haven (KDH) we strive to put smiles on the faces of children,love ones and thier families. Especial during festive seasons and difficult seasons,by spreading joy and providing essential support to them.</p>
+           <p>At Kids Dream Haven Foundation (KDH), our mission is to bring joy, hope, and essential support to children and their families, especially during festive and challenging seasons. We are committed to putting smiles on their faces by spreading kindness, uplifting spirits, and making meaningful impact in their lives.</p>
          </div>
 
          <div className='impact-stats'>

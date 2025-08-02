@@ -1,60 +1,59 @@
 .navbar {
   position: absolute;
-  top: 20px; /* height of your Topbar */
+  top: 20px; 
   left: 0;
   width: 100%;
   z-index: 100;
   background: transparent;
-  /* padding: 20px 0; */
   color: #fff;
 }
-/* This wraps everything inside the navbar */
+
+
 .nav-container5 {
   max-width: 1200px;
   margin: 0 auto;
-  /* padding: 0 40px; */
+  padding: 0 40px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-/* Logo */
+
+
 .nav-logo img {
   width: 100px;
   height: auto;
 }
 
-/* Nav links */
+
 .nav-links {
   display: flex;
   list-style: none;
   gap: 54px;
   font-size: 16px;
   font-weight: bold;
-  /* margin: 0;
-  padding: 0; */
+  margin: 0;
+  padding: 0;
 }
 
 .nav-links .nav-link {
   color: white;
   text-decoration: none;
   font-weight: bold;
-  /* padding: 6px 10px; */
   transition: color 0.3s ease;
-
 }
-
 
 .nav-links .nav-link:hover {
   color: #f39c12;
 }
-/* Active link- auto applied by Navlink for home*/
+
+
 .nav-link.active {
-  color:#f39c12;
+  color: #f39c12;
   font-weight: bold;
-  border-bottom: 3px solid#f39c12;
+  border-bottom: 3px solid #f39c12;
 }
 
-/* Remove underline or border-bottom — it’s not needed */
+
 .nav-link.active::after {
   content: none;
 }
@@ -71,8 +70,71 @@
 }
 
 .donate-btn:hover {
-    background-color: #ded8d1;
-    color: #222;
+  background-color: #ded8d1;
+  color: #222;
+}
+
+
+.nav-toggle {
+  display: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+/* Mobile menu styles */
+.nav-menu-open {
+  display: flex;
+  background-color: rgb(187, 178, 178);
+  flex-direction: column;
+  padding: 40px 15px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  gap: 40px;
+  height: 100vh;
+  transition: 0.5s;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  z-index: 999;
+}
+
+.nav-menu-open li {
+  text-align: center;
+}
+
+.nav-menu-open li a {
+  color: #222;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.mobile_nav-login {
+  width: auto;
+  align-items: center;
+  max-width: 50vw;
+  min-width: 100px;
+  outline: none;
+  border: 2px solid rgb(58, 83, 174);
+  border-radius: 50px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  background: rgb(21, 19, 19);
+  cursor: pointer;
+  text-align: center;
+  transition: 0.3s;
+  padding: 10px 15px;
+}
+
+.mobile_nav-login a {
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
 }
 
 /* About page specific navbar styling */
@@ -87,20 +149,21 @@
 .media-page-body .navbar {
   padding-top: 45px;
 }
+
 .domesticprogram-page-body .navbar {
-    padding-top: 45px;
+  padding-top: 45px;
 }
 
 .pastprogram-page-body .navbar {
-    padding-top: 45px;
+  padding-top: 45px;
 }
 
 .hospitalS-page-body .navbar {
-    padding-top: 45px;
+  padding-top: 45px;
 }
 
 .feedingkids-page-body .navbar {
-    padding-top: 45px;
+  padding-top: 45px;
 }
 
 .supportwidow-page-body .navbar {
@@ -110,10 +173,61 @@
 .volunteer-page-body .navbar {
   padding-top: 45px;
 }
-.donate-now-page-body .navbar{
-    padding-top: 45px;
+
+.donate-now-page-body .navbar {
+  padding-top: 45px;
 }
 
-.media-page-body .navbar{
-    padding-top: 45px;
+/* Desktop  */
+@media (min-width: 1025px) {
+  .nav-toggle {
+    display: none !important;
+  }
+  
+  .nav-links {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+/* Tablet */
+@media (max-width: 1024px) and (min-width: 621px) {
+  .nav-container5 {
+    padding: 0 20px;
+  }
+  
+  .nav-links {
+    gap: 30px;
+    font-size: 15px;
+  }
+  
+  .donate-btn {
+    padding: 10px 12px;
+    font-size: 16px;
+  }
+}
+
+/* Mobile  */
+@media (max-width: 620px) {
+  .nav-toggle {
+    display: flex;
+    justify-content: flex-end;
+    z-index: 1001;
+  }
+  
+  .nav-links {
+    display: none !important;
+  }
+  
+  .donate-btn {
+    display: none;
+  }
+  
+  .nav-logo img {
+    width: 60px;
+  }
+  
+  .nav-container5 {
+    padding: 0 20px;
+  }
 }

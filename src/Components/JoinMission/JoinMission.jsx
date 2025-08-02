@@ -11,10 +11,9 @@ const JoinMission = () => {
     >
       <div className="join-mission-overlay">
         <div className="join-mission-content">
-          <h2>Join Our Mission to Help At-Risk Child</h2>
+          <h2>Join Our Mission to Help At-Risk Childiren</h2>
           <p>
-            Be part of a purpose-driven movement dedicated to uplifting vulnerable communities. 
-            Your time, energy, or donation can be the spark of transformation.
+        Be part of a purpose driven movement dedicated to uplifting vulnerable communities. Your time, energy, or donation can be the spark that transforms a child’s future.
           </p>
           <div className="buttons">
             <Link to="/donate" className="donate-btn2">Donate Now</Link>

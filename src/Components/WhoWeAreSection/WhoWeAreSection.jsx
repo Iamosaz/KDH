@@ -17,10 +17,22 @@ const WhoWeAreSection = () => {
           {/* <div className="since-box">Since 2007</div> */}
 
           <p>
-            Kids Dream Haven Foundation was founded in 2024 and carries out a mission of being dedicated to improving the lives of children and thier families, by providing nurturing environment where kids can thrive,dream, and achieve thier full potential and also providing health care assistance to the most needy in the Canada. 
-            <br/>
-            <br/>
-            We believe that every child deserves a chance at a better life, and we are committed to making that a reality through our various outreach programs and initiatives.
+            Building Brighter Futures, One Child at a Time Kids Dream Haven
+            Foundation (KDH) was founded in 2024 with a mission to improve the
+            lives of children and their families by providing a nurturing,
+            supportive environment where kids can thrive, dream, and reach their
+            full potential. We believe that every child deserves the chance to
+            grow in a space filled with love, encouragement, and opportunity
+            regardless of their background or life circumstances. Through
+            creative programs, educational support, community outreach, and
+            family focused initiatives, we are building safe havens where
+            childhood is protected, potential is unlocked, and dreams are
+            nurtured. Our foundation is rooted in compassion, inclusivity, and
+            the belief that it takes a village to raise a child. We work closely
+            with families, educators, volunteers, and community partners to
+            ensure our impact is meaningful and lasting. At Kids Dream Haven
+            Foundation, we’re not just improving lives, we’re creating a future
+            where every child feels seen, valued and empowered.
           </p>
         </div>
       </div>

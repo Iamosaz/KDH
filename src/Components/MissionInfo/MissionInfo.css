@@ -61,3 +61,105 @@
   color: #0c0b0b;
   font-weight: 500;
 }
+
+@media (max-width: 1024px) {
+  .mission-header h2 {
+    font-size: 32px;
+  }
+
+  .mission-header p {
+    font-size: 18px;
+    margin-bottom: 60px;
+  }
+
+  .stat-box {
+    width: 180px;
+    padding: 50px 15px;
+  }
+
+  .stat-box h3 {
+    font-size: 36px;
+  }
+
+  .stat-box p {
+    font-size: 20px;
+  }
+
+  .impact-stats {
+    gap: 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  .mission-section {
+    padding: 60px 20px;
+  }
+
+  .mission-header h2 {
+    font-size: 28px;
+  }
+
+  .mission-header p {
+    font-size: 17px;
+    margin-bottom: 50px;
+  }
+
+  .impact-stats {
+    gap: 40px;
+  }
+
+  .stat-box {
+    width: 160px;
+    padding: 40px 12px;
+  }
+
+  .stat-box h3 {
+    font-size: 30px;
+  }
+
+  .stat-box p {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .mission-section {
+    padding: 40px 15px;
+  }
+
+  .mission-header h2 {
+    font-size: 26px;
+  }
+
+  .underline {
+    width: 60px;
+    height: 3px;
+    margin-bottom: 30px;
+  }
+
+  .mission-header p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 40px;
+  }
+
+  .impact-stats {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .stat-box {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 30px 10px;
+  }
+
+  .stat-box h3 {
+    font-size: 28px;
+  }
+
+  .stat-box p {
+    font-size: 16px;
+  }
+}

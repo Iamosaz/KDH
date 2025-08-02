@@ -1,6 +1,6 @@
 import React from 'react';
 import './TopHeader.css';
-import { FaFacebookF, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
+import { FaTiktok, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
 
 const TopHeader = () => {
@@ -14,13 +14,13 @@ const TopHeader = () => {
       </div>
       
       <div className="topheader-right">
-        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="topnav-link">
-          <FaFacebookF className="icon1" />
+        <a href="https://www.tiktok.com/@kidsdreamhaven?_t=ZS-8yUOF3mvYnA&_r=1" target="_blank" rel="noopener noreferrer" className="topnav-link">
+          <FaTiktok className="icon1" />
         </a>
         <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="topnav-link">
           <FaInstagram className="icon1" />
         </a>
-        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="topheader-link">
+        <a href="https://ca.linkedin.com/in/kids-dream-haven-foundation-kdh-b04393319" target="_blank" rel="noopener noreferrer" className="topheader-link">
           <FaLinkedinIn className="icon1" />
         </a>
       </div>

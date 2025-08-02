@@ -14,8 +14,7 @@ const FooterCA = () => {
            <div className="footer-left">
            <img src={logo} alt="KDH Logo" className="footer-logo" />
              <p className="footer-description">
-               Kids Dream Haven (KDH) was established in 2024 with a vision
-               of improving the lives of children and thier families.
+               Kids Dream Haven Foundation (KDH) was established in 2024 with a vision to improve the lives of children and their families.
              </p>
              <div className="social-icons">
                <a href="#">
@@ -33,9 +32,9 @@ const FooterCA = () => {
            <div className="footer-right">
              <h3>Quick Links</h3>
              <p>
-               <a href="mailto:info@kdh.org" className="footer-link">
+               <a href="mailto:Kidsdreamhaven@gmail.com" className="footer-link">
                  <MdEmail className="icon" />
-                 info@kdh.org
+                Kidsdreamhaven@gmail.com
                </a>
              </p>
    
@@ -47,7 +46,7 @@ const FooterCA = () => {
                  className="footer-link"
                >
                  <MdLocationOn className="icon" />
-               10510 Creditview Rd, Brampton, ON L7A 0W6 canada
+                  Toronto, Ontario, Canada
                </a>
              </p>
            </div>

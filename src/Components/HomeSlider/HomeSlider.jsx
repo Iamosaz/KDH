@@ -10,21 +10,21 @@ import slider3 from '../Assets/slider3.jpg';
 // image + text content , Js file arrary method //
 const slides = [
   {
-    image: slider1,
+    image: slider1, 
     title: 'Love, Support and a Brighter Future',
-    description: 'We are dedicated to improving the lives of children and impact thier lives Positively.',
+    description: 'We are dedicated to improving the lives of children and making a lasting, positive impact on their future.',
   },
 
    {
     image: slider2,
     title: 'Serving With Love',
-    description: 'we are dedicated to bring change to the lives of children and thier families.',
+    description: 'We are dedicated to bringing positive change to the lives of children and their families.',
   },
 
    {
     image: slider3,
     title: 'Building A Stronger Future',
-    description: 'Kids Dream Haven is committed to nurturing growth and creating lasting change for all children.',
+    description: 'Kids Dream Haven is committed to nurturing the growth of children and creating lasting, positive change in their lives.',
   },
 ];
 
