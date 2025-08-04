@@ -4,9 +4,12 @@ import './Style/PastProgram.css';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Navbar from '../Components/Navbar/Navbar';
-import img1 from '../Components/Assets/camp.jpeg';
-import img2 from '../Components/Assets/camp1.jpeg';
-import img3 from '../Components/Assets/camp2.jpeg';
+import img1 from '../Components/Assets/PastP1.jpeg';
+import img2 from '../Components/Assets/PastP2.jpeg';
+import img3 from '../Components/Assets/PastP3.jpeg';
+import img4 from '../Components/Assets/PastP4.jpeg';
+import img5 from '../Components/Assets/PastP5.jpeg';
+import img6 from '../Components/Assets/PastP6.jpeg';
 import BottomFooter from '../Components/BottomFooter/BottomFooter';
 import FooterCA from '../Components/FooterCA/FooterCA';
 
@@ -41,20 +44,86 @@ const PastProgram = () => {
             <div>
               <img src={img2} alt="Program 2" />
             </div>
+           
             <div>
               <img src={img3} alt="Program 3" />
             </div>
+             <div>
+              <img src={img4} alt="Program 4" />
+            </div>
+             <div>
+              <img src={img5} alt="Program 5" />
+            </div>
+             <div>
+              <img src={img6} alt="Program 6" />
+            </div>
+             {/* <div>
+              <img src={img3} alt="Program 6" />
+            </div> */}
           </Slider>
         </div>
 
         {/* === Content Section === */}
         <section className="past-content">
           <div className="past">
-            <h1 className="program-title">March Break Camp (MBC)</h1>
-             <p>This past March break, Kids Dream Haven successfully hosted an exciting and memorable camp experience that brought together creativity, learning, and endless fun for children aged 6 and above. The camp was took place in bramptom,Canada which was filled with a wide range of engaging activities, including arts and crafts, storytelling sessions, team games, and creative workshops that encouraged self-expression and teamwork. Each day began with a warm welcome and a healthy breakfast, followed by interactive sessions designed to spark curiosity and imagination. Campers also enjoyed nutritious lunch breaks, creating space to recharge and socialize. From painting and sculpting to group challenges and hands-on projects, every child had the opportunity to explore new skills and make lasting memories. The energy, laughter, and creativity that filled the air truly made this March Break Camp an unforgettable experience for all who attended.</p>
+            {/* <h1 className="program-title">
+              PROJECT LOVE IN ACTION - Lagos, Nigeria (December 2024)
+            </h1>
+            <p>
+              In December 2024, Kids Dream Haven Foundation carried out Project
+              Love in Action in Lagos, Nigeria, with the heartfelt goal of
+              spreading joy, dignity, and the spirit of Christmas to families
+              facing financial hardship. Understanding that many families in
+              underserved communities struggle to afford even the most basic
+              festive meals, our team focused on restoring that holiday magic,
+              especially for children. Through this initiative, 500 live
+              chickens were purchased and distributed, one chicken per child,
+              ensuring that 500 families could experience the warmth and
+              tradition of a home cooked Christmas meal. This act of love went
+              beyond food, it represented hope, belonging, and the belief that
+              every child deserves to feel seen, valued, and celebrated
+              especially during the holidays. The excitement and gratitude in
+              the eyes of the children and their families reminded us why we do
+              what we do. Project Love in Action, is a testament to our
+              commitment at Kids Dream Haven Foundation to support families in
+              meaningful, culturally sensitive ways that honour their dignity
+              and uplift their spirits.
+            </p>
+            <br/>
+            <br/> */}
+
+            <h1 className="program-title">
+              PROJECT LOVE IN ACTION 2.0 - Toronto, Canada (December 2024)
+            </h1>
+            <p>
+              PROJECT LOVE IN ACTION 2.0 - Toronto, Canada (December 2024) In
+              December 2024, Kids Dream Haven Foundation brought holiday cheer
+              to life through Project Love in Action – Toronto, creating a
+              festive and joyful experience for children across the city. With
+              over 350 brand new Christmas gifts, carefully wrapped in festive
+              paper, our team set out to ensure that every child we encountered
+              felt the warmth, magic, and generosity of the season. We began by
+              partnering with a local church during their Christmas party, an
+              event filled with music, laughter, and excited children aged 5 to
+              15. Each child received an age appropriate gift, handed to them
+              with love and intention. To make the moment even more magical, our
+              Director stepped into the role of Santa Claus literally. Wearing a
+              Santa mask and full of festive spirit, he personally handed out
+              the gifts to the children, bringing smiles, laughter, and pure
+              excitement to the room. The children lit up as they received their
+              presents from "Santa," adding a touch of enchantment to the
+              already heartwarming event. But the joy didn’t end there. With
+              remaining gifts in hand, our Santa-led team took the spirit of
+              giving to Yorkdale Mall, where they surprised children with
+              presents and joyful interactions, continuing the celebration
+              beyond the church walls. Project Love in Action – Toronto was more
+              than a gift distribution, it was a movement of love, joy, and
+              human connection. It reminded families that even in a big city,
+              kindness and community can still shine bright, especially during
+              the most magical time of year.
+            </p>
           </div>
         </section>
-       
       </div>
 
       <FooterCA />

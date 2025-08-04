@@ -178,6 +178,10 @@
   padding-top: 45px;
 }
 
+.otherprogram-page-body .navbar {
+   padding-top: 45px;
+}
+
 /* Desktop  */
 @media (min-width: 1025px) {
   .nav-toggle {

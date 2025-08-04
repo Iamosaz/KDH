@@ -1,7 +1,10 @@
-/* .program-page {
-  background-color: #f5f5f5;
+.program-page {
+  /* background-color: hsl(0, 0%, 96%); */
+  text-align: center;
+}
+.kdh {
   margin-top: 40px;
-} */
+}
 
 .program-container {
   max-width: 1300px;
@@ -115,4 +118,96 @@
 .volunteer-btn1:hover {
   background-color: #d6cbcb;
   background: #030403;
+}
+
+/* Responsive Grid Handling */
+@media screen and (max-width: 1024px) {
+  .program-grid {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+  }
+
+  .program-image {
+    height: 350px;
+  }
+
+  .program-details h3 {
+    font-size: 16px;
+  }
+
+  .program-details p {
+    font-size: 13px;
+  }
+
+  .program-btn,
+  .volunteer-btn1 {
+    font-size: 15px;
+    padding: 12px 18px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .program-container {
+    padding: 0 16px;
+  }
+
+  .program-image {
+    height: 300px;
+  }
+
+  .program-details h3 {
+    font-size: 15px;
+  }
+
+  .program-details p {
+    font-size: 12px;
+    line-height: 1.5;
+  }
+
+  .program-btn,
+  .volunteer-btn1 {
+    font-size: 14px;
+    padding: 10px 16px;
+  }
+
+  .support-section {
+    padding: 40px 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .program-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .program-image {
+    height: 350px;
+  }
+
+  .program-overlay-title {
+    font-size: 12px;
+    padding: 8px 14px;
+  }
+
+  .program-details h3 {
+    font-size: 14px;
+  }
+
+  .program-details p {
+    font-size: 12px;
+  }
+
+  .program-btn,
+  .volunteer-btn1 {
+    font-size: 13px;
+    padding: 10px 14px;
+  }
+
+  .support-section h2 {
+    font-size: 22px;
+  }
+
+  .support-section p {
+    font-size: 14px;
+  }
 }

@@ -6,7 +6,7 @@ import "slick-carousel/slick/slick-theme.css";
 
 import Navbar from '../Components/Navbar/Navbar';
 import img1 from '../Components/Assets/Program8.jpeg';
-import img2 from '../Components/Assets/Program1.jpeg';
+// import img2 from '../Components/Assets/Program1.jpeg';
 import img3 from '../Components/Assets/Program7.jpeg';
 import FooterCA from '../Components/FooterCA/FooterCA';
 import BottomFooter from '../Components/BottomFooter/BottomFooter';
@@ -39,9 +39,9 @@ const DomesticProgram = () => {
             <div>
               <img src={img1} alt="Program 1" />
             </div>
-            <div>
+            {/* <div>
               <img src={img2} alt="Program 2" />
-            </div>
+            </div> */}
             <div>
               <img src={img3} alt="Program 3" />
             </div>

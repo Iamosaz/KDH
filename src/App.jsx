@@ -14,6 +14,7 @@ import FeedingKids from './Pages/FeedingKids';
 import SupportWidows from './Pages/SupportWidows';
 import BecomeAVolunteer from './Pages/BecomeAVolunteer';
 import DonateNow from './Pages/DonateNow';
+import OtherPrograms from './Pages/OtherProgram';
 
 
 const App = () => {
@@ -40,6 +41,7 @@ const App = () => {
           {/* Detail Routes for each Program */}   
             <Route path="/programs/domestic" element={<DomesticProgram />} />
             <Route path="/programs/past" element={<PastProgram />} />
+             <Route path="/programs/other" element={<OtherPrograms />} />
             <Route path="/programs/future" element={<FutureProgram />} />
             <Route path="/themovement/learn" element={<FutureProgram />} />
             <Route path="/movement/hospital-support" element={<HospitalSupport />} />

@@ -1,5 +1,5 @@
 /* General Wrapper */
-.past-wrapper {
+.other-wrapper {
   padding: 40px;
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -22,13 +22,13 @@
 }
 
 /* === Content Section === */
-.past-content {
+.other-content {
   padding: 60px 20px;
   background-color: #ffffff;
   border-radius: 10px;
 }
 
-.past-content .past {
+.other-content .past {
   max-width: 1000px;
   margin: 0 auto;
 }
@@ -41,7 +41,7 @@
   text-align: center;
 }
 
-.past-content p {
+.other-content p {
   font-size: 1.05rem;
   line-height: 1.8;
   color: #444;
@@ -61,57 +61,5 @@
 
   .other-content p {
     font-size: 1rem;
-  }
-}
-
-/* === Responsive Enhancements === */
-/* === Responsive Enhancements === */
-
-/* For tablets and smaller screens */
-@media (max-width: 1024px) {
-  .past-wrapper {
-    padding: 30px 20px;
-  }
-
-  .image-slider img {
-    margin-top: 30px;
-    border-radius: 6px;
-  }
-
-  .past-content {
-    padding: 40px 15px;
-  }
-
-  .program-title {
-    font-size: 1.8rem;
-    margin-bottom: 16px;
-  }
-
-  .past-content p {
-    font-size: 1rem;
-    margin-bottom: 30px;
-  }
-}
-
-/* For mobile devices */
-@media (max-width: 600px) {
-  .past-wrapper {
-    padding: 20px 10px;
-  }
-
-  .image-slider img {
-    margin-top: 20px;
-    border-radius: 4px;
-  }
-
-  .program-title {
-    font-size: 10pxpx;
-    text-align: center;
-  }
-
-  .past-content p {
-    font-size: 16px;
-    line-height: 1.4;
-    text-align: left;
   }
 }

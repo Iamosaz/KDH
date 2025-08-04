@@ -19,7 +19,7 @@ const Programs = () => {
     <div className="program-page">
       <Navbar />
       <ProgramHero />
-      <TheMovement />
+      {/* <TheMovement /> */}
       <ProgramSection />
       <FooterCA />
       <BottomFooter />
