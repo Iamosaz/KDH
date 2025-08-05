@@ -51,8 +51,8 @@
 
 /* === Responsive === */
 @media (max-width: 768px) {
-  .program-title h1 {
-    font-size: 1.6rem;
+  .program-title {
+    font-size: 1.2rem;
   }
 
   .other-content {
