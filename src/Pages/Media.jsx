@@ -3,6 +3,8 @@ import Navbar from '../Components/Navbar/Navbar';
 import MediaHero from '../Components/MediaHero/MediaHero';
 import FooterCA from '../Components/FooterCA/FooterCA';
 import BottomFooter from '../Components/BottomFooter/BottomFooter';
+import MediaInfo from '../Components/MediaInfo/MediaInfo';
+
 
 
 
@@ -18,6 +20,7 @@ const Media = () => {
     <div className="media-page">
       <Navbar />
       <MediaHero />
+      <MediaInfo />
       <FooterCA />
       <BottomFooter />
     </div>
