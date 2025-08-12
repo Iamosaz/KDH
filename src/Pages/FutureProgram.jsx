@@ -6,7 +6,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import FooterCA from '../Components/FooterCA/FooterCA'
 import BottomFooter from '../Components/BottomFooter/BottomFooter'
-import image1 from '../Components/Assets/Strongerfuture.jpeg'
+import image1 from '../Components/Assets/FuturePic.jpeg'
 import image2 from '../Components/Assets/serving.jpeg'
 import image3 from '../Components/Assets/FutureSt.jpeg'
 import image4 from '../Components/Assets/FutureStk.jpeg'

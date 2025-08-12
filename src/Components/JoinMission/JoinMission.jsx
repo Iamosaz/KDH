@@ -1,6 +1,6 @@
 import React from 'react';
 import './JoinMission.css';
-import bgImage from '../Assets/strongerFuture.jpeg'; 
+import bgImage from '../Assets/FuturePic.jpeg'; 
 import { Link } from 'react-router-dom';
 
 const JoinMission = () => {

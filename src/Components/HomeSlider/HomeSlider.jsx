@@ -4,7 +4,7 @@ import './HomeSlider.css';
 import Navbar from '../Navbar/Navbar';
 import slider1 from '../Assets/slider1.jpg';
 import slider2 from '../Assets/slider2.jpg';
-import slider3 from '../Assets/Strongerfuture.jpeg';
+import slider3 from '../Assets/FuturePic.jpeg';
 
 
 // image + text content , Js file arrary method //

@@ -1,7 +1,7 @@
 // ProgramPage.jsx
 import React from "react";
 import "./ProgramSection.css";
-import program1 from "../Assets/Strongerfuture.jpeg";
+import program1 from "../Assets/FuturePic.jpeg";
 import program2 from "../Assets/Program8.jpeg";
 import pastProgram from "../Assets/PastP2.jpeg";
 import otherprogram from "../Assets/Program1.jpeg";
