@@ -6,9 +6,10 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import FooterCA from '../Components/FooterCA/FooterCA'
 import BottomFooter from '../Components/BottomFooter/BottomFooter'
-import image1 from '../Components/Assets/FutureSt.jpeg'
-import image2 from '../Components/Assets/FutureSt.jpeg'
+import image1 from '../Components/Assets/StrongerFuture.jpeg'
+import image2 from '../Components/Assets/serving.jpeg'
 import image3 from '../Components/Assets/FutureSt.jpeg'
+import image4 from '../Components/Assets/FutureStk.jpeg'
 import Navbar from '../Components/Navbar/Navbar';
 
 const FutureProgram = () => {
@@ -46,6 +47,9 @@ const FutureProgram = () => {
                <div>
                  <img src={image3} alt="Program 3" />
                </div>
+                 <div>
+                 <img src={image4} alt="Program 3" />
+               </div>
              </Slider>
            </div>
    
@@ -53,8 +57,19 @@ const FutureProgram = () => {
            <section className="future-content">
              <div className="future">
                <h1 className="program-title">Future Strikers (FS)</h1>
-                <p>Future Strikers – Summer Camp 2025 ⚽
-                Get ready for an unforgettable summer! Kids Dream Haven is thrilled to announce our upcoming "Future Strikers" Summer Camp a dynamic and engaging program designed to empower kids through fun, fitness, and creativity. This camp is more than just a way to spend the holidays—it's an opportunity for children to build confidence, develop new skills, make lasting friendships, and be part of something truly inspiring. Packed with exciting activities such as sports, team games, creative arts, confidence-building workshops, and daily inspiration, Future Strikers is open to all children ages 6 and above. We believe every child is a future leader and champion—and this camp is where they start their journey. Don’t miss out on this life-shaping experience coming this summer—let's shape tomorrow’s stars today!</p>
+                <p>Future Strikers – Summer Camp 2025 ⚽ This past summer, Kids
+                Dream Haven brought the energy, excitement, and inspiration to
+                life with our "Future Strikers" Summer Camp and what an
+                unforgettable experience it was! From thrilling sports matches
+                and team games to creative arts, confidence-building workshops,
+                and daily bursts of motivation, the camp was a hub of laughter,
+                learning, and new friendships. Children aged 6 and above stepped
+                into a world where fitness met fun, where creativity had no
+                limits, and where every child was celebrated as a leader and a
+                champion in the making. It wasn’t just a summer camp, it was a
+                journey that left kids more confident, skilled, and inspired
+                than ever. Future Strikers 2025 proved that tomorrow’s stars are
+                already shining bright today.</p>
              </div>
            </section>
           

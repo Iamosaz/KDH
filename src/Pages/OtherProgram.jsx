@@ -61,24 +61,17 @@ const OtherPrograms = () => {
               PROJECT LOVE IN ACTION - Lagos, Nigeria (December 2024)
             </h1>
             <p>
-              In December 2024, Kids Dream Haven Foundation carried out Project
-              Love in Action in Lagos, Nigeria, with the heartfelt goal of
-              spreading joy, dignity, and the spirit of Christmas to families
-              facing financial hardship. Understanding that many families in
-              underserved communities struggle to afford even the most basic
-              festive meals, our team focused on restoring that holiday magic,
-              especially for children. Through this initiative, 500 live
-              chickens were purchased and distributed, one chicken per child,
-              ensuring that 500 families could experience the warmth and
-              tradition of a home cooked Christmas meal. This act of love went
-              beyond food, it represented hope, belonging, and the belief that
-              every child deserves to feel seen, valued, and celebrated
-              especially during the holidays. The excitement and gratitude in
-              the eyes of the children and their families reminded us why we do
-              what we do. Project Love in Action, is a testament to our
-              commitment at Kids Dream Haven Foundation to support families in
-              meaningful, culturally sensitive ways that honour their dignity
-              and uplift their spirits.
+             Project Love in Action – Christmas 2024 Last December in Lagos,
+                Kids Dream Haven Foundation brought the true spirit of Christmas
+                to life for 500 families in need. With love at the heart of our
+                mission, we delivered one live chicken to every child a simple
+                gift that meant a warm, home cooked festive meal for each
+                family. For many, it was more than food it was dignity, joy, and
+                the feeling of being seen and valued. The laughter of children,
+                the smiles of parents, and the sparkle of hope reminded us why
+                we do what we do. Project Love in Action wasn’t just about
+                Christmas it was about creating moments of belonging that last
+                far beyond the season.
             </p>
           </div>
         </section>

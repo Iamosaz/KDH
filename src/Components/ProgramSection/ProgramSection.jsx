@@ -1,11 +1,11 @@
 // ProgramPage.jsx
-import React from 'react';
-import './ProgramSection.css';
-import program1 from '../Assets/FutureSt.jpeg';
-import program2 from '../Assets/Program8.jpeg';
-import pastProgram from '../Assets/PastP2.jpeg';
-import otherprogram from '../Assets/Program1.jpeg';
-import { Link } from 'react-router-dom';
+import React from "react";
+import "./ProgramSection.css";
+import program1 from "../Assets/StrongerFuture.jpeg";
+import program2 from "../Assets/Program8.jpeg";
+import pastProgram from "../Assets/PastP2.jpeg";
+import otherprogram from "../Assets/Program1.jpeg";
+import { Link } from "react-router-dom";
 
 const ProgramSection = () => {
   return (
@@ -25,20 +25,19 @@ const ProgramSection = () => {
             <div className="program-details">
               <h3>Future Strikers</h3>
               <p>
-                Future Strikers – Summer Camp 2025 ⚽ Get ready for an
-                unforgettable summer! Kids Dream Haven is thrilled to announce
-                our upcoming "Future Strikers" Summer Camp a dynamic and
-                engaging program designed to empower kids through fun, fitness,
-                and creativity. This camp is more than just a way to spend the
-                holidays—it's an opportunity for children to build confidence,
-                develop new skills, make lasting friendships, and be part of
-                something truly inspiring. Packed with exciting activities such
-                as sports, team games, creative arts, confidence-building
-                workshops, and daily inspiration, Future Strikers is open to all
-                children ages 6 and above. We believe every child is a future
-                leader and champion—and this camp is where they start their
-                journey. Don’t miss out on this life-shaping experience coming
-                this summer—let's shape tomorrow’s stars today!
+                Future Strikers – Summer Camp 2025 ⚽ This past summer, Kids
+                Dream Haven brought the energy, excitement, and inspiration to
+                life with our "Future Strikers" Summer Camp and what an
+                unforgettable experience it was! From thrilling sports matches
+                and team games to creative arts, confidence-building workshops,
+                and daily bursts of motivation, the camp was a hub of laughter,
+                learning, and new friendships. Children aged 6 and above stepped
+                into a world where fitness met fun, where creativity had no
+                limits, and where every child was celebrated as a leader and a
+                champion in the making. It wasn’t just a summer camp, it was a
+                journey that left kids more confident, skilled, and inspired
+                than ever. Future Strikers 2025 proved that tomorrow’s stars are
+                already shining bright today.
               </p>
               <a href="/programs/future" className="program-btn">
                 View Program
@@ -56,24 +55,17 @@ const ProgramSection = () => {
             <div className="program-details">
               <h3>PROJECT LOVE IN ACTION - Lagos, Nigeria (December 2024)</h3>
               <p>
-                In December 2024, Kids Dream Haven Foundation carried out
-                Project Love in Action in Lagos, Nigeria, with the heartfelt
-                goal of spreading joy, dignity, and the spirit of Christmas to
-                families facing financial hardship. Understanding that many
-                families in underserved communities struggle to afford even the
-                most basic festive meals, our team focused on restoring that
-                holiday magic, especially for children. Through this initiative,
-                500 live chickens were purchased and distributed, one chicken
-                per child, ensuring that 500 families could experience the
-                warmth and tradition of a home cooked Christmas meal. This act
-                of love went beyond food, it represented hope, belonging, and
-                the belief that every child deserves to feel seen, valued, and
-                celebrated especially during the holidays. The excitement and
-                gratitude in the eyes of the children and their families
-                reminded us why we do what we do. Project Love in Action, is a
-                testament to our commitment at Kids Dream Haven Foundation to
-                support families in meaningful, culturally sensitive ways that
-                honour their dignity and uplift their spirits.
+                Project Love in Action – Christmas 2024 Last December in Lagos,
+                Kids Dream Haven Foundation brought the true spirit of Christmas
+                to life for 500 families in need. With love at the heart of our
+                mission, we delivered one live chicken to every child a simple
+                gift that meant a warm, home cooked festive meal for each
+                family. For many, it was more than food it was dignity, joy, and
+                the feeling of being seen and valued. The laughter of children,
+                the smiles of parents, and the sparkle of hope reminded us why
+                we do what we do. Project Love in Action wasn’t just about
+                Christmas it was about creating moments of belonging that last
+                far beyond the season.
               </p>
               <a href="/programs/other" className="program-btn">
                 View Program
@@ -91,25 +83,21 @@ const ProgramSection = () => {
             <div className="program-details">
               <h3>PROJECT MAKE A DIFFERENCE - Lagos, Nigeria (July 2024)</h3>
               <p>
-                Charity Outreach to Modupe Cole Memorial Child Care & Treatment
-                Home School In July 2024, Kids Dream Haven Foundation launched
-                Project Make a Difference with a heartfelt mission to support
-                children living with disabilities. As part of this initiative,
-                our team visited Modupe Cole, a special needs school located in
-                Lagos, Nigeria. During our outreach, we provided the students
-                and staff with a variety of much needed essentials. These
-                included home cooked meals, school supplies, diapers,
-                toiletries, and personal care items, all thoughtfully selected
-                to bring comfort, dignity, and joy to the children. The visit
-                was filled with warmth, gratitude, and shared smiles. It was
-                more than a donation drive, it was a powerful reminder that
-                every child, regardless of ability or circumstance, deserves
-                care, love, and the opportunity to thrive. Project Make a
-                Difference reflects Kids Dream Haven’s core mission: to uplift
-                vulnerable communities through compassion, education, and
-                meaningful support. This outreach to Modupe Cole was just one
-                step in a broader journey of creating real, lasting impact one
-                child at a time.
+                Project Make a Difference – Modupe Cole Outreach In July 2024,
+                Kids Dream Haven Foundation took a step closer to its mission of
+                touching lives with compassion by visiting Modupe Cole Memorial
+                Child Care & Treatment Home School in Lagos a safe haven for
+                children living with disabilities. With hearts full of love, our
+                team came bearing essentials carefully chosen to bring comfort
+                and joy, home cooked meals, school supplies, diapers,
+                toiletries, and personal care items. But beyond the gifts, we
+                shared laughter, conversations, and moments that reminded us
+                that every child regardless of ability deserves to feel valued,
+                loved, and supported. This wasn’t just an outreach it was a
+                celebration of dignity, hope, and the belief that every child
+                can thrive when surrounded by care and kindness. Project Make a
+                Difference is our promise to continue standing beside vulnerable
+                communities, one child at a time.
               </p>
               <a href="/programs/domestic" className="program-btn">
                 View Program
@@ -130,32 +118,22 @@ const ProgramSection = () => {
                 PROJECT LOVE IN ACTION 2.0 - Toronto, Canada (December 2024)
               </h3>
               <p>
-                PROJECT LOVE IN ACTION 2.0 - Toronto, Canada (December 2024) In
-                December 2024, Kids Dream Haven Foundation brought holiday cheer
-                to life through Project Love in Action – Toronto, creating a
-                festive and joyful experience for children across the city. With
-                over 350 brand new Christmas gifts, carefully wrapped in festive
-                paper, our team set out to ensure that every child we
-                encountered felt the warmth, magic, and generosity of the
-                season. We began by partnering with a local church during their
-                Christmas party, an event filled with music, laughter, and
-                excited children aged 5 to 15. Each child received an age
-                appropriate gift, handed to them with love and intention. To
-                make the moment even more magical, our Director stepped into the
-                role of Santa Claus literally. Wearing a Santa mask and full of
-                festive spirit, he personally handed out the gifts to the
-                children, bringing smiles, laughter, and pure excitement to the
-                room. The children lit up as they received their presents from
-                "Santa," adding a touch of enchantment to the already
-                heartwarming event. But the joy didn’t end there. With remaining
-                gifts in hand, our Santa-led team took the spirit of giving to
-                Yorkdale Mall, where they surprised children with presents and
-                joyful interactions, continuing the celebration beyond the
-                church walls. Project Love in Action – Toronto was more than a
-                gift distribution, it was a movement of love, joy, and human
-                connection. It reminded families that even in a big city,
-                kindness and community can still shine bright, especially during
-                the most magical time of year.
+                Project Love in Action 2.0 – Toronto December 2024 was pure
+                magic for Kids Dream Haven Foundation as we brought Project Love
+                in Action to Toronto. Over 350 brand-new Christmas gifts,
+                wrapped in sparkling paper, were given out with one
+                mission spread joy, wonder, and the true spirit of giving. We
+                began at a local church’s Christmas party, where laughter filled
+                the air and children aged 5 to 15 received thoughtful,
+                age appropriate presents. To make it unforgettable, our Director
+                stepped in as Santa Claus, delivering each gift with smiles,
+                giggles, and holiday magic. Then, with more gifts in hand, our
+                Santa led crew brought surprise presents to Yorkdale
+                Mall turning an ordinary day into unforgettable Christmas
+                memories. Project Love in Action – Toronto wasn’t just about
+                presents—it was about connection, kindness, and proving that
+                even in a busy city, the holiday spirit can shine brighter than
+                ever.
               </p>
               <a href="/programs/past" className="program-btn">
                 View Program

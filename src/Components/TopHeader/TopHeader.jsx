@@ -7,9 +7,9 @@ const TopHeader = () => {
   return (
     <div className="topheader">
       <div className="topheader-left">
-        <a href="mailto:info@kdh.org" className="topheader-link">
+        <a href="Kidsdreamhaven@gmail.com" className="topheader-link">
           <MdEmail className="icon" />
-          info@kdh.orgs
+         Kidsdreamhaven@gmail.com
         </a>
       </div>
       

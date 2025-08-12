@@ -6,7 +6,7 @@ import "slick-carousel/slick/slick-theme.css";
 
 import Navbar from '../Components/Navbar/Navbar';
 import img1 from '../Components/Assets/Program8.jpeg';
-// import img2 from '../Components/Assets/Program1.jpeg';
+import img2 from '../Components/Assets/Program15.jpeg';
 import img3 from '../Components/Assets/Program7.jpeg';
 import FooterCA from '../Components/FooterCA/FooterCA';
 import BottomFooter from '../Components/BottomFooter/BottomFooter';
@@ -39,9 +39,9 @@ const DomesticProgram = () => {
             <div>
               <img src={img1} alt="Program 1" />
             </div>
-            {/* <div>
+            <div>
               <img src={img2} alt="Program 2" />
-            </div> */}
+            </div>
             <div>
               <img src={img3} alt="Program 3" />
             </div>
@@ -51,9 +51,25 @@ const DomesticProgram = () => {
         {/* === Content Section === */}
         <section className="domestic-content">
           <div className="shell">
-            <h1 className="program-title">Make a Difference – Charity Outreach (Madco)</h1>
+            <h1 className="program-title">
+              Make a Difference – Charity Outreach (Madco)
+            </h1>
             <p>
-              As part of our ongoing commitment to community service and social impact, Kids Dream Haven proudly carried out the "Make a Difference" initiative—an outreach project focused on supporting those in need. During this charity effort, we visited Module Cole, which was located in Lagos Nigeria, where we donated a variety of essential items including food supplies, cleaning products, and hygiene essentials to help improve the daily living conditions of the residents. Our team spent time engaging with the community, listening to their stories, and sharing words of encouragement. The visit wasn’t just about the items we brought, but also about showing compassion, presence, and solidarity. Volunteers from our organization worked together to pack, deliver, and distribute the donations, creating a warm, meaningful experience for everyone involved. This project served as a reminder of how small acts of kindness can collectively make a big difference, and we remain dedicated to continuing similar charitable activities that uplift and empower vulnerable communities.
+              Project Make a Difference – Modupe Cole Outreach In July 2024,
+              Kids Dream Haven Foundation took a step closer to its mission of
+              touching lives with compassion by visiting Modupe Cole Memorial
+              Child Care & Treatment Home School in Lagos a safe haven for
+              children living with disabilities. With hearts full of love, our
+              team came bearing essentials carefully chosen to bring comfort and
+              joy, home cooked meals, school supplies, diapers, toiletries, and
+              personal care items. But beyond the gifts, we shared laughter,
+              conversations, and moments that reminded us that every child
+              regardless of ability deserves to feel valued, loved, and
+              supported. This wasn’t just an outreach it was a celebration of
+              dignity, hope, and the belief that every child can thrive when
+              surrounded by care and kindness. Project Make a Difference is our
+              promise to continue standing beside vulnerable communities, one
+              child at a time.
             </p>
           </div>
         </section>
@@ -69,7 +85,10 @@ const DomesticProgram = () => {
           <div className="video-description">
             <h2>Behind the Scenes</h2>
             <p>
-              Watch this short clip of our volunteers in action during the outreach. It captures the joy, connection, and impact we made together as a team. This video reflects the true spirit of giving and the smiles we brought to faces.
+              Watch this short clip of our volunteers in action during the
+              outreach. It captures the joy, connection, and impact we made
+              together as a team. This video reflects the true spirit of giving
+              and the smiles we brought to faces.
             </p>
           </div>
         </section>

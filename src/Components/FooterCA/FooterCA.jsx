@@ -34,7 +34,7 @@ const FooterCA = () => {
              <p>
                <a href="mailto:Kidsdreamhaven@gmail.com" className="footer-link">
                  <MdEmail className="icon" />
-                Kidsdreamhaven@gmail.com
+                Kidsdreamhaven@gmail.com 
                </a>
              </p>
    

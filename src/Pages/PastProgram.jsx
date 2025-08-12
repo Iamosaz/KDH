@@ -96,31 +96,22 @@ const PastProgram = () => {
               PROJECT LOVE IN ACTION 2.0 - Toronto, Canada (December 2024)
             </h1>
             <p>
-              PROJECT LOVE IN ACTION 2.0 - Toronto, Canada (December 2024) In
-              December 2024, Kids Dream Haven Foundation brought holiday cheer
-              to life through Project Love in Action – Toronto, creating a
-              festive and joyful experience for children across the city. With
-              over 350 brand new Christmas gifts, carefully wrapped in festive
-              paper, our team set out to ensure that every child we encountered
-              felt the warmth, magic, and generosity of the season. We began by
-              partnering with a local church during their Christmas party, an
-              event filled with music, laughter, and excited children aged 5 to
-              15. Each child received an age appropriate gift, handed to them
-              with love and intention. To make the moment even more magical, our
-              Director stepped into the role of Santa Claus literally. Wearing a
-              Santa mask and full of festive spirit, he personally handed out
-              the gifts to the children, bringing smiles, laughter, and pure
-              excitement to the room. The children lit up as they received their
-              presents from "Santa," adding a touch of enchantment to the
-              already heartwarming event. But the joy didn’t end there. With
-              remaining gifts in hand, our Santa-led team took the spirit of
-              giving to Yorkdale Mall, where they surprised children with
-              presents and joyful interactions, continuing the celebration
-              beyond the church walls. Project Love in Action – Toronto was more
-              than a gift distribution, it was a movement of love, joy, and
-              human connection. It reminded families that even in a big city,
-              kindness and community can still shine bright, especially during
-              the most magical time of year.
+              Project Love in Action 2.0 – Toronto December 2024 was pure
+                magic for Kids Dream Haven Foundation as we brought Project Love
+                in Action to Toronto. Over 350 brand-new Christmas gifts,
+                wrapped in sparkling paper, were given out with one
+                mission spread joy, wonder, and the true spirit of giving. We
+                began at a local church’s Christmas party, where laughter filled
+                the air and children aged 5 to 15 received thoughtful,
+                age appropriate presents. To make it unforgettable, our Director
+                stepped in as Santa Claus, delivering each gift with smiles,
+                giggles, and holiday magic. Then, with more gifts in hand, our
+                Santa led crew brought surprise presents to Yorkdale
+                Mall turning an ordinary day into unforgettable Christmas
+                memories. Project Love in Action – Toronto wasn’t just about
+                presents—it was about connection, kindness, and proving that
+                even in a busy city, the holiday spirit can shine brighter than
+                ever.
             </p>
           </div>
         </section>
