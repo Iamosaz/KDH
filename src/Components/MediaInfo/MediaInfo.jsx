@@ -4,7 +4,7 @@ import MediaCard from '../MediaCard/MediaCard';
 
 // Import images (make sure these files exist in your src/Components/Assets folder)
 import future1 from '../Assets/FutureStk.jpeg';
-import future2 from '../Assets/StrongerFuture.jpeg';
+import future2 from '../Assets/Strongerfuture.jpeg';
 import future3 from '../Assets/Future1.jpeg';
 import pastP1 from '../Assets/Program1.jpeg';
 import pastP2 from '../Assets/Program2.jpeg';
