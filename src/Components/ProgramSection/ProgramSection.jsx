@@ -2,7 +2,8 @@
 import React from "react";
 import "./ProgramSection.css";
 import program1 from "../Assets/FuturePic.jpeg";
-import program2 from "../Assets/Program8.jpeg";
+import domestic from "../Assets/Modupe1.jpeg";
+import marchbreak from "../Assets/March1.jpeg";
 import pastProgram from "../Assets/PastP2.jpeg";
 import otherprogram from "../Assets/Program1.jpeg";
 import { Link } from "react-router-dom";
@@ -23,23 +24,104 @@ const ProgramSection = () => {
               <div className="program-overlay-title">Future Program</div>
             </div>
             <div className="program-details">
-              <h3>Future Strikers</h3>
+              <h3>
+                PROJECT FUTURE STRIKERS - Summer Camp, Creditview park,
+                Brampton, Canada (July- August 2025)
+              </h3>
               <p>
-                Future Strikers – Summer Camp 2025 ⚽ This past summer, Kids
-                Dream Haven brought the energy, excitement, and inspiration to
-                life with our "Future Strikers" Summer Camp and what an
-                unforgettable experience it was! From thrilling sports matches
-                and team games to creative arts, confidence-building workshops,
-                and daily bursts of motivation, the camp was a hub of laughter,
-                learning, and new friendships. Children aged 6 and above stepped
-                into a world where fitness met fun, where creativity had no
-                limits, and where every child was celebrated as a leader and a
-                champion in the making. It wasn’t just a summer camp, it was a
-                journey that left kids more confident, skilled, and inspired
-                than ever. Future Strikers 2025 proved that tomorrow’s stars are
-                already shining bright today.
+                Kids Dream Haven Foundation proudly hosted Project Future
+                Strikers, a free summer camp designed to empower children
+                through the joy of sports and skill development. Held at
+                Creditview Park in Brampton, the program welcomed kids of all
+                skill levels, offering them the chance to learn, grow, and shine
+                in a supportive environment. Our mission for Project Future
+                Strikers is to nurture both physical and mental strength while
+                building teamwork, confidence, and resilience in young athletes.
+                Throughout the summer, participants trained in soccer, long
+                tennis, basketball, mind strength, and physical strength
+                activities to enhance their skills, discipline, and love for the
+                game. This initiative not only helped children improve their
+                athletic abilities but also provided a safe space for them to
+                make friends, stay active, and discover new passions. Parents
+                expressed their appreciation for a program that was not only
+                educational and fun but also completely free, making it
+                accessible to families from all walks of life. The smiles,
+                laughter, and determination we witnessed over these weeks are a
+                testament to the impact of community driven initiatives. Project
+                Future Strikers stands as a reminder that when given the
+                opportunity, every child can dream big, work hard, and achieve
+                greatness, both on and off the field.
               </p>
               <a href="/programs/future" className="program-btn">
+                View Program
+              </a>
+            </div>
+          </div>
+
+          <div className="program-card">
+            <div
+              className="program-image"
+              style={{ backgroundImage: `url(${marchbreak})` }}
+            >
+              <div className="program-overlay-title">March Break</div>
+            </div>
+            <div className="program-details">
+              <h3>MARCH BREAK - Toronto, Ontario (March 2025)</h3>
+              <p>
+                Fun & Creative Activities for Boys & Girls Kids Dream Haven
+                Foundation hosted an exciting March Break Camp designed to keep
+                children ages 6 and up engaged, inspired, and active during
+                their school break. The week was packed with fun filled, hands
+                on activities that encouraged creativity, learning, and
+                friendship. Campers enjoyed: -Breakfast & lunch provided daily
+                -Free customized camp T-shirts -Arts & crafts projects -A one
+                day field trip -Cooking classes -DIY projects -STEM activities
+                and much more! Our program was built to offer a safe, inclusive,
+                and supportive environment where kids could explore their
+                talents, try new skills, and make lasting memories. Whether they
+                were painting, cooking, building, or exploring on our field
+                trip, every child left with a smile and a sense of
+                accomplishment. At Kids Dream Haven Foundation , we believe
+                school breaks are an opportunity for growth, exploration, and
+                joy, and our March Break Camp brought that to life in the best
+                way possible.
+              </p>
+              <a href="/programs/march" className="program-btn">
+                View Program
+              </a>
+            </div>
+          </div>
+
+             <div className="program-card">
+            <div
+              className="program-image"
+              style={{ backgroundImage: `url(${pastProgram})` }}
+            >
+              <div className="program-overlay-title">Past Program</div>
+            </div>
+            <div className="program-details">
+              <h3>
+                {" "}
+                PROJECT LOVE IN ACTION 2.0 - Toronto, Canada (December 2024)
+              </h3>
+              <p>
+                Project Love in Action 2.0 – Toronto December 2024 was pure
+                magic for Kids Dream Haven Foundation as we brought Project Love
+                in Action to Toronto. Over 350 brand-new Christmas gifts,
+                wrapped in sparkling paper, were given out with one mission
+                spread joy, wonder, and the true spirit of giving. We began at a
+                local church’s Christmas party, where laughter filled the air
+                and children aged 5 to 15 received thoughtful, age appropriate
+                presents. To make it unforgettable, our Director stepped in as
+                Santa Claus, delivering each gift with smiles, giggles, and
+                holiday magic. Then, with more gifts in hand, our Santa led crew
+                brought surprise presents to Yorkdale Mall turning an ordinary
+                day into unforgettable Christmas memories. Project Love in
+                Action – Toronto wasn’t just about presents—it was about
+                connection, kindness, and proving that even in a busy city, the
+                holiday spirit can shine brighter than ever.
+              </p>
+              <a href="/programs/past" className="program-btn">
                 View Program
               </a>
             </div>
@@ -76,7 +158,7 @@ const ProgramSection = () => {
           <div className="program-card">
             <div
               className="program-image"
-              style={{ backgroundImage: `url(${program2})` }}
+              style={{ backgroundImage: `url(${domestic})` }}
             >
               <div className="program-overlay-title">Domestic Program</div>
             </div>
@@ -105,41 +187,6 @@ const ProgramSection = () => {
             </div>
           </div>
 
-          <div className="program-card">
-            <div
-              className="program-image"
-              style={{ backgroundImage: `url(${pastProgram})` }}
-            >
-              <div className="program-overlay-title">Past Program</div>
-            </div>
-            <div className="program-details">
-              <h3>
-                {" "}
-                PROJECT LOVE IN ACTION 2.0 - Toronto, Canada (December 2024)
-              </h3>
-              <p>
-                Project Love in Action 2.0 – Toronto December 2024 was pure
-                magic for Kids Dream Haven Foundation as we brought Project Love
-                in Action to Toronto. Over 350 brand-new Christmas gifts,
-                wrapped in sparkling paper, were given out with one
-                mission spread joy, wonder, and the true spirit of giving. We
-                began at a local church’s Christmas party, where laughter filled
-                the air and children aged 5 to 15 received thoughtful,
-                age appropriate presents. To make it unforgettable, our Director
-                stepped in as Santa Claus, delivering each gift with smiles,
-                giggles, and holiday magic. Then, with more gifts in hand, our
-                Santa led crew brought surprise presents to Yorkdale
-                Mall turning an ordinary day into unforgettable Christmas
-                memories. Project Love in Action – Toronto wasn’t just about
-                presents—it was about connection, kindness, and proving that
-                even in a busy city, the holiday spirit can shine brighter than
-                ever.
-              </p>
-              <a href="/programs/past" className="program-btn">
-                View Program
-              </a>
-            </div>
-          </div>
         </div>
 
         {/* Support Section */}

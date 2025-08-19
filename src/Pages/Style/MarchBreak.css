@@ -1,0 +1,65 @@
+/* General Wrapper */
+.march-wrapper {
+  padding: 40px;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color:  #bcb6f1;
+}
+
+/* === Slider Section === */
+.image-slider {
+  max-width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.image-slider img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-top: 40px;
+}
+
+/* === Content Section === */
+.march-content {
+  padding: 60px 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.march-content p{
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.program-title {
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: #2a2a2a;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.march-content p {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #444;
+  text-align: justify;
+  margin-bottom: 40px;
+}
+
+/* === Responsive === */
+@media (max-width: 768px) {
+  .program-title {
+    font-size: 1.6rem;
+  }
+
+  .march-content {
+    padding: 40px 15px;
+  }
+
+  .march-content p {
+    font-size: 1rem;
+  }
+}

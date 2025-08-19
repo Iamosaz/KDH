@@ -1,9 +1,11 @@
+
+
 .media-hero-section {
   text-align: center;
   padding: 3rem 1rem 2rem;
   background-color: #f5f5f5;
 }
-
+a
 .media-hero-section h1 {
   font-size: 2rem; /* reduced from 2.5rem */
   font-weight: bold;
@@ -33,25 +35,5 @@
   }
   .media-hero-section p {
     font-size: 1.2rem;
-  }
-}
-
-/* Mobile screens */
-@media (max-width: 768px) {
-  .media-hero-section h1 {
-    font-size: 1.6rem;
-  }
-  .media-hero-section p {
-    font-size: 1.15rem;
-  }
-}
-
-/* Small mobile screens */
-@media (max-width: 480px) {
-  .media-hero-section h1 {
-    font-size: 1.4rem;
-  }
-  .media-hero-section p {
-    font-size: 1.1rem;
   }
 }

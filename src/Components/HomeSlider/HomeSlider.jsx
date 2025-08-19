@@ -3,7 +3,7 @@ import React, { useState , useEffect } from 'react'
 import './HomeSlider.css';
 import Navbar from '../Navbar/Navbar';
 import slider1 from '../Assets/slider1.jpg';
-import slider2 from '../Assets/slider2.jpg';
+import slider2 from '../Assets/Love.jpeg';
 import slider3 from '../Assets/FuturePic.jpeg';
 
 

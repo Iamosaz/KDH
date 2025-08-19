@@ -15,9 +15,9 @@ import Navbar from '../Components/Navbar/Navbar';
 const FutureProgram = () => {
 
      useEffect(() => {
-       document.body.classList.add("pastprogram-page-body");
+       document.body.classList.add("futureprogram-page-body");
        return () => {
-         document.body.classList.remove("pastprogram-page-body");
+         document.body.classList.remove("futureprogram-page-body");
        };
      }, []);
    

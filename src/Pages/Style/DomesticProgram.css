@@ -3,7 +3,7 @@
   padding: 50px;
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color:  #bcb6f1;
+  background-color: #bcb6f1;
 }
 
 /* === Image Slider === */
@@ -17,7 +17,13 @@
 .image-slider img {
   width: 100%;
   height: auto;
-  border-radius: 8px;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.image-slider img:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
 }
 
 /* === Content Section === */
@@ -28,8 +34,8 @@
   color: #333;
   line-height: 1.6;
   background-color: #ffffff;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
 }
 
 .domestic-content .program-title {
@@ -45,7 +51,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
-  padding: 2rem 1rem;
+  padding: 3rem 1rem;
   max-width: 1500px;
   margin: 0 auto;
   align-items: center;
@@ -53,29 +59,69 @@
 
 .video-shell {
   flex: 1 1 500px;
+  position: relative;
 }
 
 .video-shell video {
   width: 100%;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: #000;
 }
 
+.video-shell video:hover {
+  transform: scale(1.01);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+}
+
+/* === Play Overlay Icon === */
+.video-shell::after {
+  content: "▶";
+  font-size: 3rem;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0.8;
+  pointer-events: none;
+}
+
+/* === Description === */
 .video-description {
   flex: 1 1 400px;
 }
 
 .video-description h2 {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   margin-bottom: 1rem;
-  color: #444;
+  color: #333;
 }
 
 .video-description p {
   font-size: 1rem;
   color: #555;
-  line-height: 1.6;
+  line-height: 1.7;
 }
+
+.video-shell {
+  flex: 1 500px;
+  position: relative;
+  display: flex;
+  justify-content: center; /* centers video */
+}
+
+.video-shell video {
+  width: 70%;
+  max-width: 600px;   /* reduce video size */
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: #000;
+}
+
 
 /* === Responsive === */
 @media (max-width: 768px) {
@@ -84,10 +130,15 @@
   }
 
   .domestic-content .program-title {
-    font-size: 20px;
+    font-size: 1.4rem;
   }
 
   .video-description h2 {
-    font-size: 22px;
+    font-size: 1.3rem;
+    text-align: center;
+  }
+
+  .video-description p {
+    text-align: center;
   }
 }

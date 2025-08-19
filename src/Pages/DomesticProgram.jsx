@@ -5,11 +5,16 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 import Navbar from '../Components/Navbar/Navbar';
-import img1 from '../Components/Assets/Program8.jpeg';
+import img1 from '../Components/Assets/Modupe1.jpeg';
 import img2 from '../Components/Assets/Program15.jpeg';
 import img3 from '../Components/Assets/Program7.jpeg';
+// import img4 from '../Components/Assets/Dom1.jpeg';
+// import img5 from '../Components/Assets/Dom2.jpeg';
 import FooterCA from '../Components/FooterCA/FooterCA';
 import BottomFooter from '../Components/BottomFooter/BottomFooter';
+
+// ✅ Import local video correctly
+import video4 from "../Components/Assets/Modupe.mp4";
 
 const DomesticProgram = () => {
   useEffect(() => {
@@ -45,6 +50,12 @@ const DomesticProgram = () => {
             <div>
               <img src={img3} alt="Program 3" />
             </div>
+            {/* <div>
+              <img src={img4} alt="Program 4" />
+            </div>
+            <div>
+              <img src={img5} alt="Program 5" />
+            </div> */}
           </Slider>
         </div>
 
@@ -78,7 +89,7 @@ const DomesticProgram = () => {
         <section className="video-section">
           <div className="video-shell">
             <video width="100%" height="auto" controls>
-              <source src="/instbook.mp4" type="video/mp4" />
+              <source src={video4} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </div>
