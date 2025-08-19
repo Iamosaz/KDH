@@ -1,11 +1,6 @@
 // ProgramPage.jsx
 import React from "react";
 import "./ProgramSection.css";
-import program1 from "../Assets/FuturePic.jpeg";
-import domestic from "../Assets/Modupe1.jpeg";
-import marchbreak from "../Assets/March1.jpeg";
-import pastProgram from "../Assets/PastP2.jpeg";
-import otherprogram from "../Assets/Program1.jpeg";
 import { Link } from "react-router-dom";
 
 const ProgramSection = () => {
@@ -19,7 +14,7 @@ const ProgramSection = () => {
           <div className="program-card">
             <div
               className="program-image"
-              style={{ backgroundImage: `url(${program1})` }}
+              style={{ backgroundImage: "url(/images/FuturePic.jpeg)" }}
             >
               <div className="program-overlay-title">Future Program</div>
             </div>
@@ -61,7 +56,7 @@ const ProgramSection = () => {
           <div className="program-card">
             <div
               className="program-image"
-              style={{ backgroundImage: `url(${marchbreak})` }}
+              style={{ backgroundImage: "url(/images/March1.jpeg)" }}
             >
               <div className="program-overlay-title">March Break</div>
             </div>
@@ -92,16 +87,15 @@ const ProgramSection = () => {
             </div>
           </div>
 
-             <div className="program-card">
+          <div className="program-card">
             <div
               className="program-image"
-              style={{ backgroundImage: `url(${pastProgram})` }}
+              style={{ backgroundImage: "url(/images/PastP2.jpeg)" }}
             >
               <div className="program-overlay-title">Past Program</div>
             </div>
             <div className="program-details">
               <h3>
-                {" "}
                 PROJECT LOVE IN ACTION 2.0 - Toronto, Canada (December 2024)
               </h3>
               <p>
@@ -130,7 +124,7 @@ const ProgramSection = () => {
           <div className="program-card">
             <div
               className="program-image"
-              style={{ backgroundImage: `url(${otherprogram})` }}
+              style={{ backgroundImage: "url(/images/Program1.jpeg)" }}
             >
               <div className="program-overlay-title">Other Program</div>
             </div>
@@ -158,7 +152,7 @@ const ProgramSection = () => {
           <div className="program-card">
             <div
               className="program-image"
-              style={{ backgroundImage: `url(${domestic})` }}
+              style={{ backgroundImage: "url(/images/Modupe1.jpeg)" }}
             >
               <div className="program-overlay-title">Domestic Program</div>
             </div>
@@ -186,7 +180,6 @@ const ProgramSection = () => {
               </a>
             </div>
           </div>
-
         </div>
 
         {/* Support Section */}
