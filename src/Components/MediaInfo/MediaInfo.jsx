@@ -6,97 +6,60 @@ import Video from "yet-another-react-lightbox/plugins/video";
 import "./MediaInfo.css";
 import MediaCard from "../MediaCard/MediaCard";
 
-// 📂 Import images
-import future1 from "../Assets/FutureStk.jpeg";
-import future2 from "../Assets/FuturePic.jpeg";
-import future3 from "../Assets/Future1.jpeg";
-
-import pastP1 from "../Assets/Program1.jpeg";
-import pastP2 from "../Assets/Program2.jpeg";
-import pastP3 from "../Assets/Program3.jpeg";
-import pastP4 from "../Assets/LoveP.jpeg";
-import pastP5 from "../Assets/LagosP6.jpeg";
-
-import canada1 from "../Assets/PastP3.jpeg";
-import canada2 from "../Assets/PastP2.jpeg";
-import canada3 from "../Assets/PastP4.jpeg";
-import canada4 from "../Assets/PastP1.jpeg";
-import canada5 from "../Assets/PastP5.jpeg";
-
-import outreach1 from "../Assets/Program8.jpeg";
-import outreach2 from "../Assets/Program7.jpeg";
-import outreach3 from "../Assets/Program15.jpeg";
-import outreach4 from "../Assets/Program10.jpeg";
-import outreach5 from "../Assets/Dom1.jpeg";
-import outreach6 from "../Assets/Dom2.jpeg";
-import outreach7 from "../Assets/Modupe3.jpeg";
-
-// 🎥 Local videos
-import video1 from "../Assets/KDHVideo.mp4";
-import video2 from "../Assets/KDHVideo1.mp4";
-import video3 from "../Assets/KDHVideo2.mp4";
-import video4 from "../Assets/Modupe.mp4";
-import video5 from "../Assets/LagosP1.mp4";
-import video6 from "../Assets/Lagosp2.mp4";
-import video7 from "../Assets/LagosP3.mp4";
-import video8 from "../Assets/LagosP4.mp4";
-import video9 from "../Assets/LagosP5.mp4";
-import video10 from "../Assets/KDHVideo5.mp4";
-
-// 🎬 Define all gallery sections
+// 🎬 Define all gallery sections with PUBLIC folder paths
 const sections = [
   {
     title: "Future Strikers – Summer Camp Toronto, Canada (August 2025)",
     description: "Snapshots from the event",
     items: [
-      { type: "image", src: future1, title: "Future Strickers- Summer camp 2025", description: "Summer camp 2025" },
-      { type: "image", src: future2, title: "Future Strickers- Summer camp 2025", description: "Summer camp 2025" },
-      { type: "image", src: future3, title: "Future Strickers", description: "Summer camp 2025" },
-      { type: "video", src: video1, title: "Football practice session - Summer camp 2025", description: "Summer camp 2025" },
-      { type: "video", src: video2, title: "Kids in training - Summer camp 2025", description: "Summer camp 2025" },
+      { type: "image", src: "/images/FutureStk.jpeg", title: "Future Strickers - Summer camp 2025", description: "Summer camp 2025" },
+      { type: "image", src: "/images/FuturePic.jpeg", title: "Future Strickers - Summer camp 2025", description: "Summer camp 2025" },
+      { type: "image", src: "/images/Future1.jpeg", title: "Future Strickers", description: "Summer camp 2025" },
+      { type: "video", src: "/videos/KDHVideo.mp4", title: "Football practice session - Summer camp 2025", description: "Summer camp 2025" },
+      { type: "video", src: "/videos/KDHVideo1.mp4", title: "Kids in training - Summer camp 2025", description: "Summer camp 2025" },
     ],
   },
   {
     title: "PROJECT LOVE IN ACTION 2.0 - Toronto, Canada (December 2024)",
     description: "Snapshots from the event",
     items: [
-      { type: "image", src: canada1, title: "Winter donations and Gifting - Toronto", description: "Project Love" },
-      { type: "image", src: canada2, title: "Winter donations and Gifting - Toronto", description: "Project Love" },
-      { type: "image", src: canada3, title: "Winter donations and Gifting - Toronto", description: "Project Love" },
-      { type: "image", src: canada4, title: "Winter donations and Gifting - Toronto", description: "Project Loves" },
-      { type: "image", src: canada5, title: "Winter donations and Gifting - Toronto", description: "Project Love" },
-      { type: "video", src: video3, title: "Christmas Gifting from Santa", description: "Project Love" },
-      { type: "video", src: video10, title: "Christmas Gifting from Santa", description: "Project Love" },
+      { type: "image", src: "/images/PastP3.jpeg", title: "Winter donations and Gifting - Toronto", description: "Project Love" },
+      { type: "image", src: "/images/PastP2.jpeg", title: "Winter donations and Gifting - Toronto", description: "Project Love" },
+      { type: "image", src: "/images/PastP4.jpeg", title: "Winter donations and Gifting - Toronto", description: "Project Love" },
+      { type: "image", src: "/images/PastP1.jpeg", title: "Winter donations and Gifting - Toronto", description: "Project Love" },
+      { type: "image", src: "/images/PastP5.jpeg", title: "Winter donations and Gifting - Toronto", description: "Project Love" },
+      { type: "video", src: "/videos/KDHVideo2.mp4", title: "Christmas Gifting from Santa", description: "Project Love" },
+      { type: "video", src: "/videos/KDHVideo5.mp4", title: "Christmas Gifting from Santa", description: "Project Love" },
     ],
   },
   {
     title: "PROJECT LOVE IN ACTION - Lagos, Nigeria (December 2024)",
     description: "Snapshots from the event",
     items: [
-      { type: "image", src: pastP1, title: "Community Outreach - Kids Dream Haven (2024)", description: "Lagos 2024" },
-      { type: "image", src: pastP2, title: "Community Outreach - Kids Dream Haven (2024)", description: "Lagos 2024" },
-      { type: "image", src: pastP3, title: "Community Outreach - Kids Dream Haven (2024)", description: "Lagos 2024" },
-      { type: "image", src: pastP4, title: "Community Outreach - Kids Dream Haven (2024)", description: "Lagos 2024" },
-      { type: "image", src: pastP5, title: "Community Outreach - Kids Dream Haven (2024)", description: "Lagos 2024" },
-      { type: "video", src: video5, title: "Community Outreach Clip", description: "Project Love" },
-      { type: "video", src: video6, title: "Community Outreach Clip", description: "Project Love" },
-      { type: "video", src: video7, title: "Community Outreach Clip", description: "Project Love" },
-      { type: "video", src: video8, title: "Community Outreach Clip", description: "Project Love" },
-      { type: "video", src: video9, title: "Community Outreach Clip", description: "Project Love" },
+      { type: "image", src: "/images/Program1.jpeg", title: "Community Outreach - Kids Dream Haven (2024)", description: "Lagos 2024" },
+      { type: "image", src: "/images/Program2.jpeg", title: "Community Outreach - Kids Dream Haven (2024)", description: "Lagos 2024" },
+      { type: "image", src: "/images/Program3.jpeg", title: "Community Outreach - Kids Dream Haven (2024)", description: "Lagos 2024" },
+      { type: "image", src: "/images/LoveP.jpeg", title: "Community Outreach - Kids Dream Haven (2024)", description: "Lagos 2024" },
+      { type: "image", src: "/images/LagosP6.jpeg", title: "Community Outreach - Kids Dream Haven (2024)", description: "Lagos 2024" },
+      { type: "video", src: "/videos/LagosP1.mp4", title: "Community Outreach Clip", description: "Project Love" },
+      { type: "video", src: "/videos/Lagosp2.mp4", title: "Community Outreach Clip", description: "Project Love" },
+      { type: "video", src: "/videos/LagosP3.mp4", title: "Community Outreach Clip", description: "Project Love" },
+      { type: "video", src: "/videos/LagosP4.mp4", title: "Community Outreach Clip", description: "Project Love" },
+      { type: "video", src: "/videos/LagosP5.mp4", title: "Community Outreach Clip", description: "Project Love" },
     ],
   },
   {
     title: "PROJECT MAKE A DIFFERENCE - Lagos, Nigeria (July 2024)",
     description: "Snapshots from the event",
     items: [
-      { type: "image", src: outreach1, title: "Charity Outreach to Modupe Cole Memorial Child Care", description: "Modupe" },
-      { type: "image", src: outreach2, title: "Charity Outreach to Modupe Cole Memorial Child Care", description: "Modupe" },
-      { type: "image", src: outreach3, title: "Charity Outreach to Modupe Cole Memorial Child Care", description: "Modupe" },
-      { type: "image", src: outreach4, title: "Charity Outreach to Modupe Cole Memorial Child Care", description: "Modupe" },
-      { type: "image", src: outreach5, title: "Charity Outreach to Modupe Cole Memorial Child Care", description: "Modupe" },
-      { type: "image", src: outreach6, title: "Charity Outreach to Modupe Cole Memorial Child Care ", description: "Modupe" },
-      { type: "image", src: outreach7, title: "Charity Outreach to Modupe Cole Memorial Child Care ", description: "Modupe" },
-      { type: "video", src: video4, title: "Interview Session with a Staff at Modupe Cole", description: "Modupe" },
+      { type: "image", src: "/images/Program8.jpeg", title: "Charity Outreach to Modupe Cole Memorial Child Care", description: "Modupe" },
+      { type: "image", src: "/images/Program7.jpeg", title: "Charity Outreach to Modupe Cole Memorial Child Care", description: "Modupe" },
+      { type: "image", src: "/images/Program15.jpeg", title: "Charity Outreach to Modupe Cole Memorial Child Care", description: "Modupe" },
+      { type: "image", src: "/images/Program10.jpeg", title: "Charity Outreach to Modupe Cole Memorial Child Care", description: "Modupe" },
+      { type: "image", src: "/images/Dom1.jpeg", title: "Charity Outreach to Modupe Cole Memorial Child Care", description: "Modupe" },
+      { type: "image", src: "/images/Dom2.jpeg", title: "Charity Outreach to Modupe Cole Memorial Child Care", description: "Modupe" },
+      { type: "image", src: "/images/Modupe3.jpeg", title: "Charity Outreach to Modupe Cole Memorial Child Care", description: "Modupe" },
+      { type: "video", src: "/videos/Modupe.mp4", title: "Interview Session with a Staff at Modupe Cole", description: "Modupe" },
     ],
   },
 ];
@@ -112,7 +75,8 @@ const MediaInfo = () => {
         ? { src: item.src, description: `${item.title} - ${item.description}` }
         : {
             type: "video",
-            sources: [{ src: item.src, type: "video/mp4" }], // ✅ video source
+            sources: [{ src: item.src, type: "video/mp4" }],
+            preload: "none", // ✅ don’t preload video
             description: `${item.title} - ${item.description}`,
           }
     );
@@ -133,7 +97,7 @@ const MediaInfo = () => {
             {section.items.map((item, i) => (
               <div key={i} onClick={() => openLightbox(section.items, i)}>
                 <MediaCard
-                  img={item.src} // 👈 No more thumbnails, videos just show as video
+                  img={item.src}
                   title={item.title}
                   isVideo={item.type === "video"}
                 />

@@ -126,7 +126,8 @@
 /* === Responsive === */
 @media (max-width: 768px) {
   .video-section {
-    flex-direction: column;
+     flex-direction: column;
+     text-align: center;
   }
 
   .domestic-content .program-title {
@@ -137,6 +138,11 @@
     font-size: 1.3rem;
     text-align: center;
   }
+    .program-video {
+    width: 100%;          /* on mobile, full width */
+    max-width: 100%;
+  }
+}
 
   .video-description p {
     text-align: center;
