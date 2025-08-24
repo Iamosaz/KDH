@@ -16,6 +16,7 @@ import BecomeAVolunteer from './Pages/BecomeAVolunteer';
 import DonateNow from './Pages/DonateNow';
 import OtherPrograms from './Pages/OtherProgram';
 import MarchBreak from './Pages/MarchBreak';
+// import VerifyDonation from './Pages/VerifyDonation';
 
 
 const App = () => {
@@ -51,6 +52,7 @@ const App = () => {
             <Route path="/movement/Support-widows" element={<SupportWidows />} />
             <Route path="/volunteer" element={<BecomeAVolunteer />} />
             <Route path="/donate" element={<DonateNow />} />
+            {/* <Route path="/donate/verify" element={<VerifyDonation />} /> */}
 
         </Routes>
       </main>

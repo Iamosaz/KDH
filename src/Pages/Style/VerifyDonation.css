@@ -1,0 +1,45 @@
+/* .verify-wrapper {
+  min-height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px;
+  background-color: #f9fafc;
+}
+
+.verify-wrapper h2 {
+  font-size: 1.8rem;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.verify-wrapper h2.success {
+  color: green;
+}
+
+.verify-wrapper h2.failed {
+  color: red;
+}
+
+.verify-wrapper h2.verifying {
+  color: #444;
+}
+
+.back-btn {
+  margin-top: 30px;
+  padding: 12px 24px;
+  font-size: 1rem;
+  font-weight: 500;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.back-btn:hover {
+  background-color: #0056b3;
+} */
