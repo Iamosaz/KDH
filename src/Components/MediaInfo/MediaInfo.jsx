@@ -28,8 +28,8 @@ const sections = [
       { type: "image", src: "/images/PastP4.jpeg", title: "Winter donations and Gifting - Toronto", description: "Project Love" },
       { type: "image", src: "/images/PastP1.jpeg", title: "Winter donations and Gifting - Toronto", description: "Project Love" },
       { type: "image", src: "/images/PastP5.jpeg", title: "Winter donations and Gifting - Toronto", description: "Project Love" },
-      { type: "video", src: "/videos/KDHVideo2.mp4", title: "Christmas Gifting from Santa", description: "Project Love" },
-      { type: "video", src: "/videos/KDHVideo5.mp4", title: "Christmas Gifting from Santa", description: "Project Love" },
+      { type: "video", src: "/videos/santaCL.mp4", title: "Christmas Gifting from Santa", description: "Project Love" },
+      // { type: "video", src: "/videos/KDHVideo5.mp4", title: "Christmas Gifting from Santa", description: "Project Love" },
     ],
   },
   {
@@ -59,6 +59,7 @@ const sections = [
       { type: "image", src: "/images/Dom1.jpeg", title: "Charity Outreach to Modupe Cole Memorial Child Care", description: "Modupe" },
       { type: "image", src: "/images/Dom2.jpeg", title: "Charity Outreach to Modupe Cole Memorial Child Care", description: "Modupe" },
       { type: "image", src: "/images/Modupe3.jpeg", title: "Charity Outreach to Modupe Cole Memorial Child Care", description: "Modupe" },
+      { type: "video", src: "/videos/introModupe.mp4", title: "Intro to Modupe Charity Outreach", description: "Modupe" },
       { type: "video", src: "/videos/Modupe.mp4", title: "Interview Session with a Staff at Modupe Cole", description: "Modupe" },
     ],
   },
